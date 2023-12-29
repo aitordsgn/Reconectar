@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alef', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.gameGrid{
+    display: grid;
+    grid-gap: 20px;
+    width: 100vw;
+    margin-right:auto;
+    margin-left:auto;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gamePage-title{
+    text-align: center;
+    font-weight: 1110;
+}
+
+
+.nav-ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+}
+
+.nav-li {
+    margin-right: 15px; /* Ajusta el margen entre las páginas */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a.current {
+    text-decoration: underline;
+    font-weight: bold; /* Puedes agregar negrita para hacerlo más prominente */
+}
+nav a:hover {
+    color: #ff6600; /* Change the color on hover */
+    /* You can add additional styles like background color or underline */
+}
+.nav-head {
+    background-color:#f3d9d9;
+    color: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    align-items: center;
+}
+.logo-container img {
+    max-width: 50px; /* Ajusta según el tamaño de tu logo */
+}
+
