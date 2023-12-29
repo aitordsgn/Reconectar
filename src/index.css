@@ -60,7 +60,8 @@ nav a:hover {
     padding: 10px; /* Ajusta el relleno según tus preferencias */
     align-items: center;
 }
-.logo-container img {
-    max-width: 50px; /* Ajusta según el tamaño de tu logo */
+.logo-container img{
+    width: 50px;
+    height: 50px;
 }
 

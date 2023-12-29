@@ -2,8 +2,8 @@ export default function Navbar(){
     return(
         <>
         <header className="nav-head">
-            <div class="logo-container">
-                <img src="public\heart_idea.svg" alt="Logo" className="Logo"/>
+            <div href="/" className="logo_container">
+                <img src="heart_idea.svg" alt="Web Logo" className="logo"/>
             </div>
             <nav className= "nav">
                 <ul className="nav-ul">
