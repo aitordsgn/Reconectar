@@ -6,7 +6,8 @@ export function App() {
     return(
         <>
         <Navbar/>
-        <h1 className= 'gamePage-title' > Juegos para jugar en Pareja</h1>
+        <h1 className= 'gamePage-title' > Videojuegos </h1>
+        <h4 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h4>
         <div className='gameGrid'>
             {
                 Videogames.map(videogame => {

@@ -1,134 +1,199 @@
 [
   {
+    "name": "It takes Two",
+    "id": "0",
+    "Photo": "ItTakesTwo.webp",
+    "Tag": "Cooperativo",
+    "fav": "true"
+  },
+  {
     "name": "Keep Talking and Nobody Explodes",
     "id": "1",
     "Photo": "KTaNE.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "true"
   },
   {
     "name": "Overcooked! All you can eat",
     "id": "2",
     "Photo": "OvercookedAYCE.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Battleblock Theater",
     "id": "3",
     "Photo": "BattleblockTheater.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Lovers in a Dangerous Spacetime",
     "id": "4",
     "Photo": "Lovers.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Pico Park",
     "id": "5",
     "Photo": "PicoPark.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Ship Of Fools",
     "id": "6",
     "Photo": "ShipOfFools.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Unravel Two",
     "id": "7",
     "Photo": "UnravelTwo.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "A Way Out",
     "id": "8",
     "Photo": "AWayOut.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Biped",
     "id": "9",
     "Photo": "Biped.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Move Or Die",
     "id": "10",
     "Photo": "MoveOrDie.webp",
-    "Tag": "VS"
+    "Tag": "VS",
+    "fav": "false"
   },
   {
     "name": "Portal 2",
     "id": "11",
     "Photo": "Portal2.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Ultiamte Chicken Horse",
     "id": "12",
     "Photo": "UltimateChickenHorse.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "The Past Within",
     "id": "13",
     "Photo": "ThePastWithin.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Tick Tock a tale for two",
     "id": "14",
     "Photo": "TickTockATaleForTwo.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Terraria",
     "id": "15",
     "Photo": "Terraria.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Human: Fall Flat",
     "id": "16",
     "Photo": "HumanFallFlat.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Moving Out",
     "id": "17",
     "Photo": "MovinOut.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Moving Out 2",
     "id": "18",
     "Photo": "MovingOut2.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Stardew Valley",
     "id": "19",
     "Photo": "StardewValley.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Plate Up!",
     "id": "20",
     "Photo": "PlateUp.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Castle Crashers",
     "id": "21",
     "Photo": "CastleCrashers.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
   },
   {
     "name": "Pan y Federico",
     "id": "22",
     "Photo": "PanYFederico.webp",
-    "Tag": "Cooperativo"
+    "Tag": "Cooperativo",
+    "fav": "false"
+  },
+  {
+    "name": "DYO",
+    "id": "23",
+    "Photo": "Dyo.avif",
+    "Tag": "Cooperativo",
+    "fav": "false"
+  },
+  {
+    "name": "Party Animals",
+    "id": "22",
+    "Photo": "PartyAnimals.webp",
+    "Tag": "Cooperativo",
+    "fav": "false"
+  },
+  {
+    "name": "Pummel Party",
+    "id": "22",
+    "Photo": "PummelParty.webp",
+    "Tag": "Cooperativo",
+    "fav": "false"
+  },
+  {
+    "name": "Shift Happens",
+    "id": "22",
+    "Photo": "ShiftHappens.webp",
+    "Tag": "Cooperativo",
+    "fav": "false"
+  },
+  {
+    "name": "Speed Runners",
+    "id": "22",
+    "Photo": "SpeedRunners.webp",
+    "Tag": "Cooperativo",
+    "fav": "false"
   }
+
 ]
