@@ -37,16 +37,17 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #fff;
+    color: #222;
     font-weight: bold;
     font-size: 16px;
+    height: fit-content;
 }
 nav ul li a.current {
     text-decoration: underline;
     font-weight: bold; /* Puedes agregar negrita para hacerlo más prominente */
 }
 nav a:hover {
-    color: #ff6600; /* Change the color on hover */
+    color: #c95e94; /* Change the color on hover */
     /* You can add additional styles like background color or underline */
 }
 .nav-head {
@@ -56,12 +57,29 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    height: 3vh;
     align-items: center;
 }
 .logo-container img{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 }
+.nav-logos{
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    margin:10px;
+}
+.nav-donate{
 
+    background-color: transparent;
+    color: black;
+    border: 2px solid #04AA6D; /* Green */
+    border-radius: 20px;
+    margin: 10px;
+}
+.social-buttons{
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+}
