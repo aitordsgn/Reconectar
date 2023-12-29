@@ -1,8 +1,6 @@
-# React + Vite
+> [!CAUTION]
+> Este repositorio no está acabado
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Web de Citas
+Esta es una web creada para todas aquellas parejas que se quedan sin ideas de que hacer en las citas que puedan tener. Siguiendo las ideas que te brinda la web, se pretende recuperar esas ganas de tener citas románticas.
