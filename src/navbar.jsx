@@ -2,9 +2,9 @@ export default function Navbar(){
     return(
         <>
         <header className="nav-head">
-            <div href="/" className="logo_container">
+            <a href="/" className="logo-container">
                 <img src="heart_idea.svg" alt="Web Logo" className="logo"/>
-            </div>
+            </a>
             <nav className= "nav">
                 <ul className="nav-ul">
                     <li className="nav-li"><a href="./Preguntas">Preguntas</a></li>
