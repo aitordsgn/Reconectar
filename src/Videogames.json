@@ -169,30 +169,30 @@
   },
   {
     "name": "Party Animals",
-    "id": "22",
+    "id": "24",
     "Photo": "PartyAnimals.webp",
-    "Tag": "Cooperativo",
+    "Tag": "Party",
     "fav": "false"
   },
   {
     "name": "Pummel Party",
-    "id": "22",
+    "id": "25",
     "Photo": "PummelParty.webp",
-    "Tag": "Cooperativo",
+    "Tag": "Party",
     "fav": "false"
   },
   {
     "name": "Shift Happens",
-    "id": "22",
+    "id": "26",
     "Photo": "ShiftHappens.webp",
     "Tag": "Cooperativo",
     "fav": "false"
   },
   {
     "name": "Speed Runners",
-    "id": "22",
+    "id": "27",
     "Photo": "SpeedRunners.webp",
-    "Tag": "Cooperativo",
+    "Tag": "VS",
     "fav": "false"
   }
 

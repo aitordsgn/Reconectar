@@ -15,7 +15,8 @@
     margin-bottom: 10px;
 }
 .card .card-title{
-    font-family: Arial, sans-serif;
+    font-family: 'Onest' , sans-serif;
+    font-weight: 500;
     margin: 10px;
     color: hsl(0, 0%, 20%);
 }
@@ -28,6 +29,8 @@
     width: fit-content;
     position: relative;
     margin: 10px;
+    font-family: 'Onest' , sans-serif;
+    font-weight: 200;
 }
 
 
