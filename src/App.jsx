@@ -2,6 +2,7 @@ import { GameCard } from './GameCard.jsx'
 import Videogames from './Videogames.json'
 import Navbar from './navbar.jsx'
 
+
 export function App() {
     return(
         <>
@@ -12,7 +13,7 @@ export function App() {
             {
                 Videogames.map(videogame => {
                     return(
-                        <GameCard imgName ={videogame.Photo} gameName={videogame.name} tags ={videogame.Tag} key={videogame.id} isFavourite={videogame.fav}/>
+                        <GameCard imgName ={videogame.Photo} gameName={videogame.name} tags ={videogame.Tag} key={videogame.id} isFavourite={videogame.fav} link ={videogame.link}/>
                     )
                 })
             }
