@@ -18,7 +18,7 @@ body {
     width: 100vw;
     margin-right:auto;
     margin-left:auto;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px;
     justify-content: center;
     margin: 20px;
     padding: 20px;
