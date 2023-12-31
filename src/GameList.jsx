@@ -9,7 +9,7 @@ export function ListadoJuegos() {
         <Navbar/>
         <h1 className= 'gamePage-title' > Videojuegos </h1>
         <h4 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h4>
-        <div>
+        <div className='Centrado-botones'>
             <button className='button-tipo' type="button">Tipo</button>
             <button className='button-fav' type="button">Favorito</button>
         </div>

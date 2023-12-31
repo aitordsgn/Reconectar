@@ -11,13 +11,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: "Background.svg";
 }
 .gameGrid{
     display: grid;
-    grid-gap: 20px;
-    width: 100vw;
-    grid-template-columns: 300px 300px 300px 300px;
+    gap: 1rem;
+    grid-template-rows: repeat(22rem);
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
     justify-content: center;
+    align-items: center;
+    margin: 30px;
 }
 
 .gamePage-title{
@@ -68,7 +71,6 @@ nav a:hover {
     color: #c95e94; /* Change the color on hover */
     /* You can add additional styles like background color or underline */
 }
-
 .logo-container img{
     width: 25px;
     height: 25px;
@@ -91,4 +93,34 @@ nav a:hover {
     display: flex;
     vertical-align: center;
     justify-content: space-between;
+}
+/*===============================================================*/
+/*========================BUTTONS================================*/
+/*===============================================================*/
+.button-fav {
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+    outline: none;
+    padding: 8px 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: auto;
+}
+.Centrado-botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }

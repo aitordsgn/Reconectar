@@ -19,7 +19,7 @@
     "name": "Speed Runners",
     "id": "2",
     "Photo": "SpeedRunners.webp",
-    "Tag": "VS",
+    "Tag": "Vs",
     "fav": "false",
     "link": "https://store.steampowered.com/app/207140/SpeedRunners/"
   },
@@ -44,7 +44,7 @@
     "id": "5",
     "Photo": "OvercookedAYCE.webp",
     "Tag": "Cooperativo",
-    "fav": "true",
+    "fav": "false",
     "link": "https://store.steampowered.com/app/1243830/Overcooked_All_You_Can_Eat/"
   },
   {
@@ -107,7 +107,7 @@
     "name": "Move Or Die",
     "id": "13",
     "Photo": "MoveOrDie.webp",
-    "Tag": "VS",
+    "Tag": "Vs",
     "fav": "false",
     "link": "https://store.steampowered.com/app/323850/Move_or_Die/"
   },
@@ -230,5 +230,189 @@
     "Tag": "Cooperativo",
     "fav": "false",
     "link": "https://store.steampowered.com/app/320040/Moon_Hunters/"
+  },
+  {
+    "name": "Letal Company",
+    "id": "29",
+    "Photo": "LetalCompany.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1966720/Lethal_Company/"
+  },
+  {
+    "name": "Don't Starve Together",
+    "id": "30",
+    "Photo": "DontStraveT.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/322330/Dont_Starve_Together/"
+  },
+  {
+    "name": "Pizza Possum",
+    "id": "31",
+    "Photo": "PizzaPossum.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1951230/Pizza_Possum/"
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "id": "32",
+    "Photo": "BaldursGate.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+  },
+  {
+    "name": "Block'Em!",
+    "id": "33",
+    "Photo": "BlockEm.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1529220/BlockEm/"
+  },
+  {
+    "name": "River Tails: Stronger Together",
+    "id": "34",
+    "Photo": "RiverTails.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1851610/River_Tails_Stronger_Together/"
+  },
+  {
+    "name": "Street Fighter™ 6",
+    "id": "35",
+    "Photo": "StreetFigther6.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1364780/Street_Fighter_6/"
+  },
+  {
+    "name": "Mortal Kombat X",
+    "id": "36",
+    "Photo": "MotalKombatX.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/976310/Mortal_Kombat11/"
+  },
+  {
+    "name": "Tekken 7",
+    "id": "37",
+    "Photo": "Tekken7.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/389730/TEKKEN_7/"
+  },
+  {
+    "name": "Stick Fight: The Game",
+    "id": "38",
+    "Photo": "StickFight.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/674940/Stick_Fight_The_Game/"
+  },
+  {
+    "name": "Duck Game",
+    "id": "39",
+    "Photo": "DuckGame.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/312530/Duck_Game/"
+  },
+  {
+    "name": "Sackboy™ Una aventura a lo grande",
+    "id": "40",
+    "Photo": "Sackboy.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1599660/Sackboy_Una_aventura_a_lo_grande"
+  },
+  {
+    "name": "ROUNDS",
+    "id": "41",
+    "Photo": "Rounds.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1557740/ROUNDS/"
+  },
+  {
+    "name": "Nidhogg",
+    "id": "42",
+    "Photo": "Nidhogg.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/94400/Nidhogg/"
+  },
+  {
+    "name": "Party Panic",
+    "id": "43",
+    "Photo": "PartyPanic.webp",
+    "Tag": "Party",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/506500/Party_Panic/"
+  },
+  {
+    "name": "Lethal League Blaze",
+    "id": "44",
+    "Photo": "LethalLeageBlaze.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/553310/Lethal_League_Blaze/"
+  },
+  {
+    "name": "Shipped",
+    "id": "45",
+    "Photo": "Shipped.webp",
+    "Tag": "Vs",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/1037190/Shipped/"
+  },
+  {
+    "name": "LEGO® Star Wars™: La Saga Skywalker",
+    "id": "46",
+    "Photo": "LegoStarWars.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/920210/LEGO_Star_Wars_La_Saga_Skywalker/"
+  },
+  {
+    "name": "Untitled Goose Game",
+    "id": "47",
+    "Photo": "GooseGame.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/"
+  },
+  {
+    "name": "Cuphead",
+    "id": "48",
+    "Photo": "Cuphead.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/268910/Cuphead/"
+  },
+  {
+    "name": "The escapist 2",
+    "id": "49",
+    "Photo": "TheEscapist2.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/641990/The_Escapists_2/"
+  },
+  {
+    "name": "Ready, Steady, Ship!",
+    "id": "50",
+    "Photo": "ReadySteadyShip.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/2225610/Ready_Steady_Ship/"
+  },
+  {
+    "name": "Tricky Towers",
+    "id": "51",
+    "Photo": "TrickyTowers.webp",
+    "Tag": "Cooperativo",
+    "fav": "false",
+    "link": "https://store.steampowered.com/app/437920/Tricky_Towers/"
   }
 ]

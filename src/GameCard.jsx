@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const TagComponent = styled.p`
-    position: relative;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
