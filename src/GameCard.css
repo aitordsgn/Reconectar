@@ -15,22 +15,11 @@
     margin-bottom: 10px;
 }
 .card .card-title{
-    font-family: 'Onest' , sans-serif;
+    font-family: 'Inter' , sans-serif;
     font-weight: 500;
     margin: 10px;
     color: hsl(0, 0%, 20%);
 }
-.card .card-tag{
-    background-color: #CAE9FD;
-    color: #1D9BF0;
-    padding: 4px 8px;
-    text-align: center;
-    border-radius: 5px;
-    width: fit-content;
-    position: relative;
-    margin: 10px;
-    font-family: 'Onest' , sans-serif;
-    font-weight: 200;
-}
+
 
 

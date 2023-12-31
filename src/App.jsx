@@ -12,7 +12,7 @@ export function App() {
             {
                 Videogames.map(videogame => {
                     return(
-                        <GameCard imgName ={videogame.Photo} gameName={videogame.name} tags ={videogame.Tag} key={videogame.id}/>
+                        <GameCard imgName ={videogame.Photo} gameName={videogame.name} tags ={videogame.Tag} key={videogame.id} isFavourite={videogame.fav}/>
                     )
                 })
             }

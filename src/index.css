@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'Onest';
-    src: url('assets/Fonts/onest-variablefont_wght-webfont.woff2') format('woff2'),
-    url('assets/Fonts/onest-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'Inter Variable';
+    src: url('assets/Fonts/Inter-Variable.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-display: swap;
 }
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Onest', sans-serif;
+    font-family: 'Inter Variable', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,14 +25,14 @@ body {
 }
 
 .gamePage-title{
-    font-family:'Onest';
+    font-family: 'Inter Variable' , sans-serif;
     text-align: center;
-    font-weight: bolder;
+    font-weight: 900;
 }
 .gamePage-Desc{
-    font-family: 'Onest' , sans-serif;
+    font-family: 'Inter Variable' , sans-serif;
     text-align: center;
-    font-weight: 100;
+    font-weight: bolder;
 }
 
 .nav-ul { 
