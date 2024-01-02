@@ -37,10 +37,10 @@ export function GameCard({imgName, gameName, tags, isFavourite ,link}){
     return(
        <article className="card">
             <a href ={link} target="_blank" className="card-a-image">
-            <img className="card-image" src={`src/assets/imgs/${imgName}`} alt="Splash screen"></img>
+                <img loading ="lazy" className="card-image" src={`src/assets/imgs/${imgName}` } alt="Splash screen"></img>
             </a>
             <a href ={link} target="_blank" className="NoChange">
-            <h2 className="card-title">{gameName}</h2>
+                <h2 className="card-title">{gameName}</h2>
             </a>
             <TagComponent variant={tags} >{tags}</TagComponent>
             {isFavourite == "true" ? <FontAwesomeIcon icon={faHeart} className="Fav-Badge"/> : null}

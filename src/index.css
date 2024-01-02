@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Inter Variable', sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -24,12 +24,12 @@ body {
 }
 
 .gamePage-title{
-    font-family: 'Inter Variable' , sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     text-align: center;
     font-weight: 900;
 }
 .gamePage-Desc{
-    font-family: 'Inter Variable' , sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     text-align: center;
     font-weight: bolder;
 }
@@ -90,7 +90,7 @@ nav a:hover {
     color: #222222;
     cursor: pointer;
     display: inline-block;
-    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -121,7 +121,29 @@ nav a:hover {
     color: #222222;
     cursor: pointer;
     display: inline-block;
-    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+    outline: none;
+    padding: 8px 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: auto;
+}
+.button-dropdown {
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;

@@ -1,6 +1,9 @@
 import { GameCard } from './GameCard.jsx'
 import Videogames from './Videogames.json'
 import Navbar from './navbar.jsx'
+import DropDown from './Dropdown.jsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 
 export function ListadoJuegos() {
@@ -10,7 +13,9 @@ export function ListadoJuegos() {
         <h1 className= 'gamePage-title' > Videojuegos </h1>
         <h4 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h4>
         <div className='Centrado-botones'>
-            <button className='button-tipo' type="button">Tipo</button>
+            <button className='button-dropdown' type="button"> Dropdown
+                <FontAwesomeIcon icon={faCaretDown} />
+            </button>
             <button className='button-fav' type="button">Favorito</button>
         </div>
         <div className='gameGrid'>
