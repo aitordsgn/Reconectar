@@ -232,9 +232,9 @@
     "link": "https://store.steampowered.com/app/320040/Moon_Hunters/"
   },
   {
-    "name": "Letal Company",
+    "name": "Lethal Company",
     "id": "29",
-    "Photo": "LetalCompany.webp",
+    "Photo": "LethalCompany.webp",
     "Tag": "Cooperativo",
     "fav": "false",
     "link": "https://store.steampowered.com/app/1966720/Lethal_Company/"
@@ -411,7 +411,7 @@
     "name": "Tricky Towers",
     "id": "51",
     "Photo": "TrickyTowers.webp",
-    "Tag": "Cooperativo",
+    "Tag": "Vs",
     "fav": "false",
     "link": "https://store.steampowered.com/app/437920/Tricky_Towers/"
   }

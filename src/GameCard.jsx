@@ -20,14 +20,14 @@ const TagComponent = styled.p`
     background-color: ${(props => 
         props.variant === "Cooperativo" 
         ? "#DFF0FF" 
-        : props.variant === "VS" 
+        : props.variant === "Vs" 
         ? "#FFC7C7" 
         : props.variant === "Party" 
         ? "#C3F8DF": "#D9D9D9")};
     color: ${(props => 
         props.variant === "Cooperativo" 
         ? "#7DC2FF" 
-        : props.variant === "VS"
+        : props.variant === "Vs"
         ? "#BE5E5E" 
         : props.variant === "Party" 
         ? "#3B9D6F": "#2222" )};
