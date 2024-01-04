@@ -1,15 +1,11 @@
 import "./GameCard.css"
 
-const DropDown = () => {
+export function DropDown ({category}){
     return(
-        <div className="Dropdown-container">
-            <ul className="Dropdown-ul">
-                <li className="Dropdown-li">Cooperative</li>
-                <li className="Dropdown-li">Vs</li>
-                <li className="Dropdown-li">Logout</li>
-            </ul>
-        </div>
+        <label>
+            <input type="checkbox"  />
+             {category} 
+             </label>
+        
     )
 }
-
-export default DropDown

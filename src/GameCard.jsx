@@ -37,7 +37,7 @@ export function GameCard({imgName, gameName, tags, isFavourite ,link}){
     return(
        <article className="card">
             <a href ={link} target="_blank" className="card-a-image">
-                <img loading ="lazy" className="card-image" src={`src/assets/imgs/${imgName}` } alt="Splash screen"></img>
+                <img loading ="lazy" className="card-image" src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
             </a>
             <a href ={link} target="_blank" className="NoChange">
                 <h2 className="card-title">{gameName}</h2>

@@ -162,3 +162,7 @@ nav a:hover {
     gap: 10px;
     margin-bottom: 20px;
 }
+.active {
+    background-color: #1e293b;
+    color: #fff;
+  }

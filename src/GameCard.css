@@ -15,7 +15,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
     max-width: 100cqw;
-    aspect-ratio: auto 460/215;
+    aspect-ratio:460/215;
 }
 .card-a-image{
     display: flex;
@@ -66,4 +66,5 @@
     display: flex;
     flex-direction: column;
     gap : 4px;
+    padding:0;
 }

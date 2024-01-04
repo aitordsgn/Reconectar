@@ -6,7 +6,7 @@ export default function Navbar(){
         <>
         <header className="nav-head">
             <a href="/" className="logo-container">
-                <img src="heart_idea.svg" alt="Web Logo" className="logo"/>
+                <img src="./heart_idea.svg" alt="Web Logo" className="logo"/>
             </a>
             <nav className= "nav">
                 <ul className="nav-ul">
@@ -15,15 +15,14 @@ export default function Navbar(){
                 </ul>
             </nav>
             <div className="social-buttons">
-                <a href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer">
+                <a  href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer"aria-label="Twitter">
                     <FontAwesomeIcon icon={faTwitter} className="nav-logos"/>
                 </a>
-                <a href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer">
+                <a  href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer" aria-label="Github">
                     <FontAwesomeIcon icon={faGithub} className="nav-logos"/>
                 </a>
                 <button 
-                onclick="window.location" 
-                href='https://paypal.me/reyortegaitor' 
+                onclick="window.open('http://google.com','_blank')"
                 className="nav-donate">
                 Donar </button>
             </div>
