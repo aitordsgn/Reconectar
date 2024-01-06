@@ -15,16 +15,15 @@ export default function Navbar(){
                 </ul>
             </nav>
             <div className="social-buttons">
-                <a  href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer"aria-label="Twitter">
+                <a  href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer"aria-label="Twitter" className='nav-logos'>
                     <FontAwesomeIcon icon={faTwitter} className="nav-logos"/>
                 </a>
-                <a  href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer" aria-label="Github">
+                <a  href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer" aria-label="Github" className='nav-logos'>
                     <FontAwesomeIcon icon={faGithub} className="nav-logos"/>
                 </a>
-                <button 
-                onclick="window.open('http://google.com','_blank')"
-                className="nav-donate">
-                Donar </button>
+                <a  href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer" aria-label="Github " className='nav-donate'>
+                    Donate
+                </a>
             </div>
         </header>
         </>
