@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alef', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color:#062142;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 50px; /* Ajusta según el tamaño de tu logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+}
+
+nav li {
+    margin-right: 15px; /* Ajusta el margen entre las páginas */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a.current {
+    text-decoration: underline;
+    font-weight: bold; /* Puedes agregar negrita para hacerlo más prominente */
+}
+nav a:hover {
+    color: #ff6600; /* Change the color on hover */
+    /* You can add additional styles like background color or underline */
+}
+
+.social-buttons button {
+    background-color: #fbe7e8;
+    color: #062142;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#Container_dcha{
+width: 50vh;
+display: flex;
+flex-direction: row;
+}
+
+ /*****************************************************/
+ /**************Generate idea button******************/
+  .generate-idea-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #062142;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  /* Hover effect */
+  .generate-idea-button:hover {
+    background-color: #113868;
+    color: #fff;
+  }
+  
+  /* Active effect (when button is clicked) */
+  .generate-idea-button:active {
+    background-color: #134c91;
+    color: #fff;
+  }
+
+/*****************************************************/
+/******************Categories*****************************/
+
+  .categories-container {
+    display: flex;
+    justify-content: center;
+  }
+  .category-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #F06292;
+    border-radius: 5px;
+    background-color: #F06292;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover effect */
+  .category-button:hover {
+    background-color: #F06292;
+    color: #fff;
+  }
+  
+  /* Active effect (when button is clicked) */
+  .category-button:active {
+    background-color: #ffe4ff;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+/*****************************************************/
+/******************Categories*****************************/
+  .Background-container{
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    background: url('Background.svg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#dateIdea {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#dateIdea {
+    font-size: 75PX;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust height as needed */
+  }
+
+  footer {
+    height: 10vh;
+    text-align: center;
+    padding: 10px; /* Ajusta el espacio alrededor del texto según sea necesario */
+    background-color: #F78CA6; /* Cambia el color de fondo si es necesario */
+    font-family: 'Montserrat';
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;    
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 10px; /* Ajusta el margen superior según tus preferencias */
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+    }
+}
+body {
+    overflow: hidden;
+}
+
+main {
+    overflow-y: auto;
+    max-height: 100vh;
+}

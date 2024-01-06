@@ -1,6 +1,11 @@
+import './ideas.css'
+import Navbar from './navbar'
+import './idea_generator.js'
+
 export function Ideas (){
     return(
         <>
+        <Navbar/>
         <div class="Background-container">
             <div class="categories-container">
                 <div class="category-buttons">
