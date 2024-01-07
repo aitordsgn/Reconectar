@@ -6,8 +6,10 @@ import { faGithub, faTwitter, } from '@fortawesome/free-brands-svg-icons'
 export function Footer_Component(){
     return(
         <>
-
+        
        <footer className="footer">
+       <svg src="./wave.svg" className="spacer"></svg>
+       <div className="coloring">
             <div className="footer-social-buttons">
                 <a  href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer"aria-label="Twitter">
                     <FontAwesomeIcon icon={faTwitter} className="footer-logos"/>
@@ -18,6 +20,7 @@ export function Footer_Component(){
  
             </div>
             <span className='footer-bottom-text'> Creado por Aitor Rey Ortega</span>
+        </div>
        </footer>
        </>
     )

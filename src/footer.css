@@ -2,9 +2,12 @@
     width: 100%;
     text-align: center;
     justify-content: center;
-    background-color: #FFC7C7;
     display: flex;
     flex-direction: column;
+}
+.coloring {
+    background-color: #FFC7C7;
+    max-height: 10vh;
 }
 .footer-previous{
     width: 100%;
@@ -21,6 +24,9 @@
     height: 2rem;
     margin: .5rem;
 }
+.footer-logos:hover{
+    color:var(--primary-100);
+}
 
 .footer-social-buttons{
     display: flex;
@@ -29,4 +35,12 @@
     gap: 20px;
     width: 100%;
     height: auto;
+}
+.spacer {
+    aspect-ratio: 900/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./Wave.svg');
 }
