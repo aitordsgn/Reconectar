@@ -1,11 +1,16 @@
 :root {
-    --primary-bg: #ffffff;
-    --secondary-bg: #FFC7C7;
-    --primary-text-color: #ffffff;
-    --nav-bg:#ffff;
-    --secondary-text-color: #cecece;
-    --border-radius: 8px;
+    --primary-100:#FF4081;
+    --primary-200:#ff79b0;
+    --primary-300:#ffe4ff;
+    --accent-100:#00BCD4;
+    --accent-200:#005e74;
+    --text-100:#333333;
+    --text-200:#5c5c5c;
+    --bg-100:#F5F5F5;
+    --bg-200:#ebebeb;
+    --bg-300:#c2c2c2;
     --speed: 500ms;
+    gap:0;
   }
 @font-face {
     font-family: 'Inter Variable';
@@ -15,12 +20,13 @@
 }
 body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: "Background.svg";
+    color:var(--text-100);
+    gap: 0;
 }
 .gameGrid{
     display: grid;
@@ -49,7 +55,7 @@ body {
 /*==============================================================*/
 .nav-head {
     background-color: var(--nav-bg);
-    color: #222;
+    color: var(--text-100);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +74,7 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #222;
+    color: var(--text-100);
     font-weight: bold;
     font-size: 16px;
     height: fit-content;
@@ -78,7 +84,7 @@ nav ul li a.current {
     font-weight: bold; /* Puedes agregar negrita para hacerlo más prominente */
 }
 nav a:hover {
-    color: #c95e94; /* Change the color on hover */
+    color: var(--primary-100); /* Change the color on hover */
     /* You can add additional styles like background color or underline */
 }
 .logo-container img{
@@ -90,18 +96,18 @@ nav a:hover {
     width: 1.5rem;
     height: 1.5rem;
     overflow: visible;
-    color:#222;
+    color:var(--text-100);
 }
 .nav-logos:hover{
-    color:#c95e94;
+    color:var(--primary-100);
 }
 .nav-donate{
     margin:10px;
     background-color: transparent;
-    border: 1px solid #04AA6D;
+    border: 1px solid var(--primary-100);
     border-radius: 20px;
     box-sizing: border-box;
-    color: #222222;
+    color: var(--text-100) ;
     cursor: pointer;
     display: inline-block;
     font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
@@ -119,21 +125,22 @@ nav a:hover {
 }
 .social-buttons{
     display: flex;
-    gap:5px;
+    gap:1rem;
     margin:0px 10px;
     overflow: hidden;
     vertical-align: text-top;
     align-items: center;
+    color:var(--text-100)
 }
 /*===============================================================*/
 /*========================BUTTONS================================*/
 /*===============================================================*/
 .button-fav {
-    background-color: #ffffff;
-    border: 1px solid #D9D9D9;
+    background-color: var(--bg-100);
+    border: 1px solid var(--bg-300);
     border-radius: 20px;
     box-sizing: border-box;
-    color: #222222;
+    color: var(--text-100), var(--text-200);
     cursor: pointer;
     display: inline-block;
     font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
@@ -159,26 +166,26 @@ nav a:hover {
    height: 2rem;
     right: 2vw;
     font-size: 1.25rem;
-    background-color: var(--secondary-bg);
-    color:var(--secondary-text-color);
+    background-color: var(--primary-200);
+    color:var(--text-100);
     border-radius: 50%;
     border: 0px;
-    color: gray;
-    box-shadow: 0px 0px 10px #22222293;
+    color: var(--text-200);
+    box-shadow: 0px 0px 10px var(--text-100);
     transition: 1000ms;
 }
 .backtotop:hover{
-    background-color: #F59797;
+    background-color: var(--accent-100);
 }
 /*===============================================================*/
 /*====================DROPDOWN BUTTON=============================*/
 /*===============================================================*/
 .button-dropdown {
-    background-color: #ffffff;
-    border: 1px solid #D9D9D9;
+    background-color: var(--bg-100);
+    border: 1px solid var(--bg-300);
     border-radius: 20px;
     box-sizing: border-box;
-    color: #222222;
+    color: var(--text-100);
     cursor: pointer;
     display: flex;
     gap: 5px;
@@ -194,27 +201,28 @@ nav a:hover {
     text-decoration: none;
     user-select: none;
     width: auto;
+    height: fit-content;
 }
 .Centrado-botones{
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
-    height: 1rem;
+    height: 2.5rem;
 }
 .active {
-    background-color: #1e293b;
-    color: #fff;
+    background-color: var(--text-100);
+    color: var(--bg-100);
   }
   .contenedor-filtros{
     position:relative;
     padding: 15px;
     border-radius: 15px;
-    background-color: white;
+    background-color: var(--bg-100);
     display:flex;
     flex-direction: column;
     z-index: 1000;
-    box-shadow: 0px 0px 10px #22222231;
+    box-shadow: 0px 0px 10px var(--text-100)22231;
     top:10px;
 }
   .contenedor-filtros::before{
@@ -222,11 +230,11 @@ nav a:hover {
     content: '';
     top: -.5rem;
     display: inline;
-    background-color: white;
+    background-color: var(--bg-100);
     transform: rotate(45deg);
     width: 1.41rem;
     height: 1.41rem;
-    z-index: 0;
+    z-index: -100;
 }
 
 .contenedor-filtros.active{
@@ -251,25 +259,24 @@ nav a:hover {
     color:#1e293b;
   }
   .checkbox-label:hover{
-    background-color:  lightcyan;
+    background-color:  var(--primary-300);
     border-radius: 15px;
   }
-
   .checkbox{
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--bg-100);
     width: 1rem;
     height: 1rem;
     appearance: none;
-    border: 2px solid #888;
+    border: 2px solid var(--bg-300);
     transition: background-color 0.3s ease-in-out;
     border-radius: 25%;
   }
 
   .checkbox:checked{
-    background-color: var(--secondary-bg);
+    background-color: var(--accent-200);
   }
 
   .checkbox:focus {
-    border-color: rgb(80, 67, 250);
+    border-color: var(--accent-100);
   } 

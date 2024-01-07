@@ -1,8 +1,7 @@
 import './ideas.css'
 import Navbar from './navbar'
-import './idea_generator.js'
 
-export function Ideas (){
+export function Generador_Ideas (){
     return(
         <>
         <Navbar/>

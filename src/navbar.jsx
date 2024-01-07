@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, } from '@fortawesome/free-brands-svg-icons'
-
+import {Link} from 'react-router-dom'
 export default function Navbar(){
     return(
         <>
@@ -10,8 +10,9 @@ export default function Navbar(){
             </a>
             <nav className= "nav">
                 <ul className="nav-ul">
-                    <li className="nav-li"><a href="./Preguntas">Preguntas</a></li>
-                    <li className="nav-li"><a href="./Juegos">Juegos</a></li>
+                    <li className="nav-li"><Link to="/">Ideas</Link></li>
+                    <li className="nav-li"><Link to="/Videojuegos">Videojuegos</Link></li>
+                    <li className="nav-li"><Link to="/Eventos">Eventos</Link></li>
                 </ul>
             </nav>
             <div className="social-buttons">

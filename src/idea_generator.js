@@ -1,5 +1,3 @@
-import  './date-ideas.csv'
-
 const dateIdeaElement = document.getElementById("dateIdea");
 const generateButton = document.getElementById("generateButton");
 const categoryButtons = document.querySelectorAll(".category-button");

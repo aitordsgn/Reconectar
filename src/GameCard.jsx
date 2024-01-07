@@ -16,7 +16,7 @@ const TagComponent = styled.p`
     margin: 5px;
     height: fit-content;
     font-family: 'Inter' , sans-serif;
-    font-weight: normal;
+    font-weight: 600;
     background-color: ${(props => 
         props.variant === "Cooperativo" 
         ? "#DFF0FF" 

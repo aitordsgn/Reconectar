@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown, faArrowUp} from '@fortawesome/free-solid-svg-icons'
 import  React, {useEffect,useState } from "react"
 import { Footer_Component } from './Footer.jsx'
+
+
+
 export function ListadoJuegos() {
 
     const [selectedFilters, setSelectedFilters] = useState([]);
