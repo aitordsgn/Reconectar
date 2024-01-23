@@ -6,7 +6,7 @@ export default function Navbar(){
         <>
         <header className="nav-head">
             <a href="/" className="logo-container">
-                <img src="./heart_idea.svg" alt="Web Logo" className="logo"/>
+                <img src="./Icon.svg" alt="Web Logo" className="logo"/>
             </a>
             <nav className= "nav">
                 <ul className="nav-ul">
