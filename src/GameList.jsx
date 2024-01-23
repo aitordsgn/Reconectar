@@ -1,6 +1,5 @@
 import { GameCard } from './GameCard.jsx'
 import items from './Videogames.json'
-import Navbar from './navbar.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown, faArrowUp} from '@fortawesome/free-solid-svg-icons'
 import  React, {useEffect,useState } from "react"
@@ -69,7 +68,6 @@ export function ListadoJuegos() {
 
     return(
            <>
-        <Navbar/>
         <h1 className= 'gamePage-title' > Videojuegos </h1>
         <h2 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h2>
         <div className='Centrado-botones'>

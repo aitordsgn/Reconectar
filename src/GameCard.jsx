@@ -1,4 +1,4 @@
-import "./GameCard.css"
+import styles from "./GameCard.module.css"
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,7 @@ const TagComponent = styled.p`
     padding: 5px;
     margin: 5px;
     height: fit-content;
-    font-family: 'Inter' , sans-serif;
+    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-weight: 600;
     background-color: ${(props => 
         props.variant === "Cooperativo" 
@@ -35,15 +35,15 @@ const TagComponent = styled.p`
 
 export function GameCard({imgName, gameName, tags, isFavourite ,link}){
     return(
-       <article className="card">
-            <a href ={link} target="_blank" className="card-a-image">
-                <img loading ="lazy" className="card-image" src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
+       <article className= {styles.card}>
+            <a href ={link} target="_blank" className={styles.cardAImage}>
+                <img loading ="lazy" className={styles.cardImage} src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
             </a>
-            <a href ={link} target="_blank" className="NoChange">
-                <h2 className="card-title">{gameName}</h2>
+            <a href ={link} target="_blank" className={styles.NoChange}>
+                <h2 className={styles.cardTitle}>{gameName}</h2>
             </a>
             <TagComponent variant={tags} >{tags}</TagComponent>
-            {isFavourite == "true" ? <FontAwesomeIcon icon={faHeart} className="Fav-Badge"/> : null}
+            {isFavourite == "true" ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}
         </article> 
     );
 }

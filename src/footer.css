@@ -4,10 +4,11 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 .coloring {
     background-color: #FFC7C7;
-    max-height: 10vh;
+    max-height: fit-content;
 }
 .footer-previous{
     width: 100%;

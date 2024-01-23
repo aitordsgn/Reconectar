@@ -4,7 +4,7 @@ export default function Videojuegos () {
     return (
         <>
         <Navbar></Navbar>
-        <h1> Videojuegos</h1>
+        <ListadoJuegos/>
         </>
     )
 }

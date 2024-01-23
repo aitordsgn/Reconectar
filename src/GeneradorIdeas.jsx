@@ -1,25 +1,26 @@
-import './ideas.css'
+import { BadgeButton } from './Badge.jsx'
+import styles from './ideas.module.css'
 import Navbar from './navbar'
 
 export function Generador_Ideas (){
+
     return(
         <>
-        <Navbar/>
-        <div class="Background-container">
-            <div class="categories-container">
-                <div class="category-buttons">
-                    <button class="category-button" data-category="Todas">Todas</button>
-                    <button class="category-button" data-category="Fuera de Casa">Fuera de Casa</button>
-                    <button class="category-button" data-category="Planificada">Planificada</button>
-                    <button class="category-button" data-category="En Casa">En Casa</button>
-                    <button class="category-button" data-category="Especial">Especial</button>
-                    <button class="category-button" data-category="Cocina">Cocina</button>
-                    <button class="category-button" data-category="Activo">Activo</button>
-                </div>
+        <div className={styles.BackgroundContainer }>
+            <div className={styles.categoriesContainer }>
+                    <BadgeButton category="DIY"/>
+                    <BadgeButton category="Cocina"/>
+                    <BadgeButton category="Activo"/>
+                    <BadgeButton category="Fuera de Casa"/>
+                    <BadgeButton category="En Casa"/>
+                    <BadgeButton category="Planificada"/>
+                    <BadgeButton category="Especial"/>
+                    <BadgeButton category="Naturaleza"/>
+                    <BadgeButton category="DIY"/>
             </div>
-            <div class="container">
-                <h1 id="dateIdea">Presiona el boton para generar una idea para una cita</h1>
-                <button class="generate-idea-button" id="generateButton">Generar Idea</button>
+            <div className={styles.containerIdeas }>
+                <h1 className={styles.DateIdea }>Presiona el boton para generar una idea para una cita</h1>
+                <button className={styles.generateIdeaButton }>Generar Idea</button>
             </div>
         </div>
         </>
