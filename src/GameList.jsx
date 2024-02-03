@@ -11,6 +11,7 @@ export function ListadoJuegos() {
 
     const [selectedFilters, setSelectedFilters] = useState([]);
     const [filteredItems, setFilteredItems] =useState(items);
+    const [showFavorites, setShowFavorites] = useState(false);
     const [open,setOpen] =useState(false);
     let filters = ["Cooperativo", "Vs", "Party"];
 
@@ -27,6 +28,11 @@ export function ListadoJuegos() {
       }
     });
   }, []);
+
+  useEffect(() => {
+    filterItems();
+  }, [selectedFilters, showFavorites]);
+
     const scrollUp = () => {
       window.scrollTo({
         top: 0 ,
@@ -44,6 +50,12 @@ export function ListadoJuegos() {
         }
       };
 
+      const handleFavButtonClick = () => {
+        console.log("La función handleFavButtonClick se está ejecutando"); // Agrega esta línea
+        setShowFavorites(!showFavorites);
+      };
+
+
       //Filtered items saved at filterItems
       useEffect(() => {
         filterItems();
@@ -52,16 +64,18 @@ export function ListadoJuegos() {
 
       //FileterdItems will have all values whenever it doesnt have anithing.
       const filterItems = () => {
+        let tempItems = [...items];
+        // Apply category filters
         if (selectedFilters.length > 0) {
-          let tempItems = selectedFilters.map((selectedCategory) => {
-            let temp = items.filter((item) => item.category === selectedCategory);
-            return temp;
-          });
-          setFilteredItems(tempItems.flat());
-        } else {
-          setFilteredItems([...items]);
+          tempItems = tempItems.filter((item) => selectedFilters.includes(item.category));
         }
+        // Apply favorite filter
+        if (showFavorites) {
+          tempItems = tempItems.filter((item) => item.fav === true || item.fav === "true");
+        }
+        setFilteredItems(tempItems);
       };
+        
 
 
 
@@ -73,6 +87,7 @@ export function ListadoJuegos() {
         <div className='Centrado-botones'>
           <div className='dropdown-button-container'>
           <button className='button-dropdown ' onClick={() => {setOpen(!open)}}>Filtrar <FontAwesomeIcon icon={faCaretDown}/></button>
+          
           <div className={`contenedor-filtros ${open? 'active' : 'inactive'}`}>
               {filters.map((category,idx) => (
                 <label className="checkbox-label">
@@ -88,13 +103,29 @@ export function ListadoJuegos() {
           </div> 
         </div>
 
-          <button className='button-fav' type="button">Favorito</button>
+        <button className={`button-fav ${showFavorites ? 'active' : 'inactive'}`} type="button" onClick={handleFavButtonClick}>
+          Favorito
+        </button>
+
         </div>
+
         <div className='gameGrid'>
-            {filteredItems.map ((item,idx)   => (
-                        <GameCard imgName ={item.Photo} gameName={item.name} tags ={item.category}  key={idx} isFavourite={item.fav} link ={item.link}/>
-                    ))
-            }
+        {filteredItems.length === 0 ? (
+      <span className='Notificación'>No hay ningún juego que coincida con tu búsqueda.</span>
+    ) : (
+      <div className="gameGrid">
+        {filteredItems.map((item, idx) => (
+          <GameCard
+            imgName={item.Photo}
+            gameName={item.name}
+            tags={item.category}
+            key={idx}
+            isFavourite={item.fav}
+            link={item.link}
+          />
+        ))}
+      </div>
+    )}
        </div>
        {backToTopButton && (
        <button className='backtotop' onClick = {() =>scrollUp()}>
@@ -103,5 +134,5 @@ export function ListadoJuegos() {
         <Footer_Component/>
         </>
     )
-}
 
+  }

@@ -4,7 +4,7 @@
     "id": "0",
     "Photo": "PummelParty.webp",
     "category": "Party",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/880940/Pummel_Party/"
   },
   {
@@ -12,7 +12,7 @@
     "id": "1",
     "Photo": "ShiftHappens.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/359840/Shift_Happens/"
   },
   {
@@ -20,7 +20,7 @@
     "id": "2",
     "Photo": "SpeedRunners.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/207140/SpeedRunners/"
   },
   {
@@ -28,7 +28,7 @@
     "id": "3",
     "Photo": "ItTakesTwo.webp",
     "category": "Cooperativo",
-    "fav": "true",
+    "fav": true,
     "link": "https://store.steampowered.com/app/1426210/It_Takes_Two/"
   },
   {
@@ -36,7 +36,7 @@
     "id": "4",
     "Photo": "KTaNE.webp",
     "category": "Cooperativo",
-    "fav": "true",
+    "fav": true,
     "link": "https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/"
   },
   {
@@ -44,7 +44,7 @@
     "id": "5",
     "Photo": "OvercookedAYCE.webp",
     "category": "Cooperativo",
-    "fav": "true",
+    "fav": true,
     "link": "https://store.steampowered.com/app/1243830/Overcooked_All_You_Can_Eat/"
   },
   {
@@ -52,7 +52,7 @@
     "id": "6",
     "Photo": "BattleblockTheater.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/238460/BattleBlock_Theater/"
   },
   {
@@ -60,7 +60,7 @@
     "id": "7",
     "Photo": "Lovers.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/252110/Lovers_in_a_Dangerous_Spacetime/"
   },
   {
@@ -68,7 +68,7 @@
     "id": "8",
     "Photo": "PicoPark.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1509960/PICO_PARK/"
   },
   {
@@ -76,7 +76,7 @@
     "id": "9",
     "Photo": "ShipOfFools.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1286580/Ship_of_Fools/"
   },
   {
@@ -84,7 +84,7 @@
     "id": "10",
     "Photo": "UnravelTwo.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1225570/Unravel_Two/"
   },
   {
@@ -92,7 +92,7 @@
     "id": "11",
     "Photo": "AWayOut.webp",
     "category": "Cooperativo",
-    "fav": "true",
+    "fav": true,
     "link": "https://store.steampowered.com/app/1222700/A_Way_Out/"
   },
   {
@@ -100,7 +100,7 @@
     "id": "12",
     "Photo": "Biped.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1071870/Biped/"
   },
   {
@@ -108,7 +108,7 @@
     "id": "13",
     "Photo": "MoveOrDie.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/323850/Move_or_Die/"
   },
   {
@@ -116,7 +116,7 @@
     "id": "14",
     "Photo": "Portal2.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/620/Portal_2/"
   },
   {
@@ -124,7 +124,7 @@
     "id": "15",
     "Photo": "UltimateChickenHorse.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/386940/Ultimate_Chicken_Horse/"
   },
   {
@@ -132,7 +132,7 @@
     "id": "16",
     "Photo": "ThePastWithin.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1515210/The_Past_Within/"
   },
   {
@@ -140,7 +140,7 @@
     "id": "17",
     "Photo": "TickTockATaleForTwo.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/790740/Tick_Tock_A_Tale_for_Two/"
   },
   {
@@ -148,7 +148,7 @@
     "id": "18",
     "Photo": "Terraria.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/105600/Terraria/"
   },
   {
@@ -156,7 +156,7 @@
     "id": "19",
     "Photo": "HumanFallFlat.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/477160/Human_Fall_Flat/"
   },
   {
@@ -164,7 +164,7 @@
     "id": "20",
     "Photo": "MovinOut.webp",
     "category": "Cooperativo",
-    "fav": "true",
+    "fav": true,
     "link": "https://store.steampowered.com/app/996770/Moving_Out/"
   },
   {
@@ -172,7 +172,7 @@
     "id": "21",
     "Photo": "MovingOut2.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1641700/Moving_Out_2/"
   },
   {
@@ -180,7 +180,7 @@
     "id": "22",
     "Photo": "StardewValley.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/413150/Stardew_Valley/"
   },
   {
@@ -188,7 +188,7 @@
     "id": "23",
     "Photo": "PlateUp.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1599600/PlateUp/"
   },
   {
@@ -196,7 +196,7 @@
     "id": "24",
     "Photo": "CastleCrashers.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/204360/Castle_Crashers/"
   },
   {
@@ -204,7 +204,7 @@
     "id": "25",
     "Photo": "PanYFederico.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1607680/Bread__Fred/"
   },
   {
@@ -212,7 +212,7 @@
     "id": "26",
     "Photo": "Dyo.avif",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/791470/DYO/"
   },
   {
@@ -220,7 +220,7 @@
     "id": "27",
     "Photo": "PartyAnimals.webp",
     "category": "Party",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1260320/Party_Animals/"
   },
   {
@@ -228,7 +228,7 @@
     "id": "28",
     "Photo": "MoonHunters.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/320040/Moon_Hunters/"
   },
   {
@@ -236,7 +236,7 @@
     "id": "29",
     "Photo": "LethalCompany.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1966720/Lethal_Company/"
   },
   {
@@ -244,7 +244,7 @@
     "id": "30",
     "Photo": "DontStraveT.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/322330/Dont_Starve_Together/"
   },
   {
@@ -252,7 +252,7 @@
     "id": "31",
     "Photo": "PizzaPossum.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1951230/Pizza_Possum/"
   },
   {
@@ -260,7 +260,7 @@
     "id": "32",
     "Photo": "BaldursGate.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
   },
   {
@@ -268,7 +268,7 @@
     "id": "33",
     "Photo": "BlockEm.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1529220/BlockEm/"
   },
   {
@@ -276,7 +276,7 @@
     "id": "34",
     "Photo": "RiverTails.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1851610/River_Tails_Stronger_Together/"
   },
   {
@@ -284,7 +284,7 @@
     "id": "35",
     "Photo": "StreetFigther6.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1364780/Street_Fighter_6/"
   },
   {
@@ -292,7 +292,7 @@
     "id": "36",
     "Photo": "MotalKombatX.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/976310/Mortal_Kombat11/"
   },
   {
@@ -300,7 +300,7 @@
     "id": "37",
     "Photo": "Tekken7.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/389730/TEKKEN_7/"
   },
   {
@@ -308,7 +308,7 @@
     "id": "38",
     "Photo": "StickFight.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/674940/Stick_Fight_The_Game/"
   },
   {
@@ -316,7 +316,7 @@
     "id": "39",
     "Photo": "DuckGame.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/312530/Duck_Game/"
   },
   {
@@ -324,7 +324,7 @@
     "id": "40",
     "Photo": "Sackboy.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1599660/Sackboy_Una_aventura_a_lo_grande"
   },
   {
@@ -332,7 +332,7 @@
     "id": "41",
     "Photo": "Rounds.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1557740/ROUNDS/"
   },
   {
@@ -340,7 +340,7 @@
     "id": "42",
     "Photo": "Nidhogg.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/94400/Nidhogg/"
   },
   {
@@ -348,7 +348,7 @@
     "id": "43",
     "Photo": "PartyPanic.webp",
     "category": "Party",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/506500/Party_Panic/"
   },
   {
@@ -356,7 +356,7 @@
     "id": "44",
     "Photo": "LethalLeageBlaze.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/553310/Lethal_League_Blaze/"
   },
   {
@@ -364,7 +364,7 @@
     "id": "45",
     "Photo": "Shipped.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/1037190/Shipped/"
   },
   {
@@ -372,7 +372,7 @@
     "id": "46",
     "Photo": "LegoStarWars.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/920210/LEGO_Star_Wars_La_Saga_Skywalker/"
   },
   {
@@ -380,7 +380,7 @@
     "id": "47",
     "Photo": "GooseGame.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/"
   },
   {
@@ -388,7 +388,7 @@
     "id": "48",
     "Photo": "Cuphead.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/268910/Cuphead/"
   },
   {
@@ -396,7 +396,7 @@
     "id": "49",
     "Photo": "TheEscapist2.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/641990/The_Escapists_2/"
   },
   {
@@ -404,7 +404,7 @@
     "id": "50",
     "Photo": "ReadySteadyShip.webp",
     "category": "Cooperativo",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/2225610/Ready_Steady_Ship/"
   },
   {
@@ -412,7 +412,7 @@
     "id": "51",
     "Photo": "TrickyTowers.webp",
     "category": "Vs",
-    "fav": "false",
+    "fav":false,
     "link": "https://store.steampowered.com/app/437920/Tricky_Towers/"
   }
 ]

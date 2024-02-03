@@ -43,7 +43,7 @@ export function GameCard({imgName, gameName, tags, isFavourite ,link}){
                 <h2 className={styles.cardTitle}>{gameName}</h2>
             </a>
             <TagComponent variant={tags} >{tags}</TagComponent>
-            {isFavourite == "true" ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}
+            {isFavourite  ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}
         </article> 
     );
 }

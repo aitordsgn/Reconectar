@@ -178,14 +178,21 @@ nav a:hover {
     line-height: 18px;
     margin: 0;
     outline: none;
-    padding: 10px;
+    padding: 12px;
     position: relative;
     text-align: center;
     text-decoration: none;
     user-select: none;
     width: auto;
     height: fit-content;
-   
+}
+.button-fav.active {
+    background-color: var(--text-100);
+    color: var(--bg-100);   
+}
+.Notificación {
+        text-align: center;
+        color:gray;
 }
 
 .backtotop{
@@ -224,7 +231,7 @@ nav a:hover {
     line-height: 18px;
     margin: 0;
     outline: none;
-    padding: 10px;
+    padding: 12px;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -239,10 +246,7 @@ nav a:hover {
     margin-bottom: 20px;
     height: 2.5rem;
 }
-.active {
-    background-color: var(--text-100);
-    color: var(--bg-100);
-  }
+
   .contenedor-filtros{
     position:relative;
     padding: 15px;
@@ -303,9 +307,11 @@ nav a:hover {
   }
 
   .checkbox:checked{
-    background-color: var(--accent-200);
+    
+    background-color: var(--text-100);
+    color: var(--bg-100);
   }
 
   .checkbox:focus {
-    border-color: var(--accent-100);
+    border-color: var(--text-200);
   } 
