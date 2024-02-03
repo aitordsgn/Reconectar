@@ -1,6 +1,8 @@
 import { BadgeButton } from './Badge.jsx'
 import styles from './ideas.module.css'
-import Navbar from './navbar'
+import Navbar from './navbar.jsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLightbulb,faCalendar} from '@fortawesome/free-solid-svg-icons'
 
 export function Generador_Ideas (){
 
@@ -20,7 +22,16 @@ export function Generador_Ideas (){
             </div>
             <div className={styles.containerIdeas }>
                 <h1 className={styles.DateIdea }>Presiona el boton para generar una idea para una cita</h1>
-                <button className={styles.generateIdeaButton }>Generar Idea</button>
+                <div class={styles.buttonContainer}>
+                <button className={styles.generateIdeaButton }>
+                <FontAwesomeIcon icon={faLightbulb}  class={styles.CalendarIcon}/>
+                <span class={styles.lable}>Generar Idea</span> 
+                </button>
+                <button className={styles.Calendario }>
+                    <FontAwesomeIcon icon={faCalendar} class={styles.CalendarIcon}/>
+                <span class={styles.lable}>Añadir Evento</span>
+               </button>
+               </div>
             </div>
         </div>
         </>

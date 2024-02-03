@@ -6,34 +6,88 @@
 }
 
 /*****************************************************/
- /**************Generate idea button******************/
+ /**************************Botones******************/
   .generateIdeaButton {
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 20px;
-    border-radius: 8px;
-    background-color: #062142;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 201px;
+    border: none;
+    background: #b668ff;
+    border-radius: 20px;
+    cursor: pointer;
   }
   
-  /* Hover effect */
   .generateIdeaButton:hover {
-    background-color: #113868;
-    color: #fff;
+    background-color: #ab55fc;
+    color: white;
+    transform: scale(1.1);
+    font-weight: 700;
+    -webkit-box-shadow: 7px 7px 23px -12px #ab55fc;
+    -moz-box-shadow: 7px 7px 23px -12px #ab55fc;
+    box-shadow: 7px 7px 23px -12px #ab55fc;
+    border: none;
   }
   
-  /* Active effect (when button is clicked) */
   .generateIdeaButton:active {
-    background-color: #134c91;
-    color: #fff;
+    background-color: #ab55fc;
   }
+
+  .Calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 201px;
+    border: none;
+    background: #FF342B;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .Calendario:hover {
+    background: #e52e26;
+  }
+  .CalendarIcon{
+    height: 16px;
+    width: 16px;
+    color:#fff;
+  }
+
+  .Calendario:hover .CalendarIcon {
+    animation: slope 1s linear infinite;
+  }
+  
+  @keyframes slope {
+    0% {
+    }
+  
+    50% {
+      transform: rotate(15deg);
+    }
+  
+    100% {
+    }
+  }
+
+
 
 /**********************************************************/
 /******************Categories*****************************/
@@ -70,6 +124,10 @@
   align-items: center;
   height: 100vh; /* Adjust height as needed */
 }
+
+
+
+
 
   .footerBottomRextIdeas{
  width: 100%;

@@ -51,7 +51,14 @@ const CategoryButton = styled.button`
         ? "#c98d8d" 
         :"#a5a4a4")};
     color: black;
+    
+    &:hover {
+        background-color: lightgray;
+        color: darkgray;
+        text-decoration: line-through;
+    }
     `;
+    
 export function BadgeButton ({category}) {
     return(
         <>
