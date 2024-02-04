@@ -21,11 +21,7 @@ export function Generador_Ideas (){
                     <BadgeButton category="Naturaleza"/>
             </div>
             <div className={styles.containerIdeas }>
-<<<<<<< HEAD
                 <h1 className={styles.DateIdea }>Presiona el botón para generar una idea para una cita</h1>
-=======
-                <h1 className={styles.DateIdea }>Presiona el boton para generar una idea para una cita</h1>
->>>>>>> 31d2a5ec8c144d235387002f5d54414cf41c07e7
                 <div class={styles.buttonContainer}>
                 <button className={styles.generateIdeaButton }>
                 <FontAwesomeIcon icon={faLightbulb}  class={styles.CalendarIcon}/>

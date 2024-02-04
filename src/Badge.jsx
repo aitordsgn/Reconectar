@@ -4,7 +4,7 @@ const CategoryButton = styled.button`
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    border-radius: 0.3rem;
+    border-radius: 2vh;
     padding: 10px 20px;
     margin: 1vh 0.2vw;
     font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
