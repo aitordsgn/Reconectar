@@ -91,3 +91,17 @@
     gap : 4px;
     padding:0;
 }
+.consoleIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: auto; /* Mantiene los iconos en la parte inferior de la tarjeta */
+}
+  
+.consoleIcon {
+    font-size: 1.5rem; /* Tamaño del icono, ajusta según sea necesario */
+    height: 1.5rem;
+    margin-left: 5px; /* Espaciado entre iconos, ajusta según sea necesario */
+    color:var(--text-200);
+    fill: var(--text-200);
+}

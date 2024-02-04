@@ -112,25 +112,37 @@ export function ListadoJuegos() {
         <div className='gameGrid'>
         {filteredItems.length === 0 ? (
       <span className='Notificación'>No hay ningún juego que coincida con tu búsqueda.</span>
-    ) : (
-      <div className="gameGrid">
-        {filteredItems.map((item, idx) => (
-          <GameCard
-            imgName={item.Photo}
-            gameName={item.name}
-            tags={item.category}
-            key={idx}
-            isFavourite={item.fav}
-            link={item.link}
-          />
-        ))}
-      </div>
-    )}
+      ) : (
+        <div className="gameGrid">
+          {filteredItems.map((item, idx) => (
+            <GameCard
+              imgName={item.Photo}
+              gameName={item.name}
+              tags={item.category}
+              key={idx}
+              isFavourite={item.fav}
+              link={item.link}
+              platforms = {item.platforms}
+            />
+          ))}
+        </div>
+      )}
        </div>
+      {/* Sección de recomendaciones */}
+      <div className='Recomendaciones'>
+        <h3> Tienes alguna recomendación de juego nuevo?</h3>
+        <h4> Dejame tu recomendación aquí</h4>
+        
+
+      </div>
+
+
+       {/* Boton de subir */}
        {backToTopButton && (
        <button className='backtotop' onClick = {() =>scrollUp()}>
        <FontAwesomeIcon icon={faArrowUp} />
         </button>)}
+       {/* Footer */}
         <Footer_Component/>
         </>
     )

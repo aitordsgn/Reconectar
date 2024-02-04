@@ -1,7 +1,8 @@
 import styles from "./GameCard.module.css"
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faHeart} from '@fortawesome/free-solid-svg-icons'
+import { faPlaystation, faXbox, faSteam} from '@fortawesome/free-brands-svg-icons';
 
 const TagComponent = styled.p`
 
@@ -33,7 +34,8 @@ const TagComponent = styled.p`
         ? "#3B9D6F": "#2222" )};
     `;
 
-export function GameCard({imgName, gameName, tags, isFavourite ,link}){
+export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}){
+    console.log('Platform array:', platforms);
     return(
        <article className= {styles.card}>
             <a href ={link} target="_blank" className={styles.cardAImage}>
@@ -44,6 +46,17 @@ export function GameCard({imgName, gameName, tags, isFavourite ,link}){
             </a>
             <TagComponent variant={tags} >{tags}</TagComponent>
             {isFavourite  ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}
+
+            {/* New section for the console icons */}
+            <div className={styles.consoleIcons}>
+            {platforms.includes('PlayStation') ? <FontAwesomeIcon icon={faPlaystation} className={styles.consoleIcon} /> : null}
+            {platforms.includes('Xbox') ? <FontAwesomeIcon icon={faXbox} className={styles.consoleIcon} /> : null}
+            {platforms.includes('Switch') ? <img src="./Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
+            {platforms.includes('Steam') ? <FontAwesomeIcon icon={faSteam} className={styles.consoleIcon} /> : null}
+
+            </div>            
+
+
         </article> 
     );
 }

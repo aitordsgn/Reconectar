@@ -51,6 +51,7 @@ const CategoryButton = styled.button`
         ? "#c98d8d" 
         :"#a5a4a4")};
     color: black;
+    cursor: pointer;
     
     &:hover {
         background-color: lightgray;

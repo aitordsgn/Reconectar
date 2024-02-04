@@ -1,5 +1,6 @@
 import Navbar from "../navbar"
 import React, { useEffect } from 'react';
+import { Formulario } from "../Form";
 
 export default function Eventos () {
 
@@ -13,6 +14,7 @@ export default function Eventos () {
     return (
         <>
         <Navbar></Navbar>
+        <Formulario/>
         <h1> Eventos</h1>
         </>
     )
