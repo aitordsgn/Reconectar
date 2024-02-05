@@ -4,12 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown, faArrowUp} from '@fortawesome/free-solid-svg-icons'
 import  React, {useEffect,useState } from "react"
 import { Footer_Component } from './Footer.jsx'
+import { Formulario } from "./Form";
+
 
 
 
 export function ListadoJuegos() {
 
     const [selectedFilters, setSelectedFilters] = useState([]);
+
     const [filteredItems, setFilteredItems] =useState(items);
     const [showFavorites, setShowFavorites] = useState(false);
     const [open,setOpen] =useState(false);
@@ -50,6 +53,9 @@ export function ListadoJuegos() {
         }
       };
 
+      
+
+
       const handleFavButtonClick = () => {
         console.log("La función handleFavButtonClick se está ejecutando"); // Agrega esta línea
         setShowFavorites(!showFavorites);
@@ -85,6 +91,8 @@ export function ListadoJuegos() {
         <h1 className= 'gamePage-title' > Videojuegos </h1>
         <h2 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h2>
         <div className='Centrado-botones'>
+          {/* Tipo */}
+
           <div className='dropdown-button-container'>
           <button className='button-dropdown ' onClick={() => {setOpen(!open)}}>Filtrar <FontAwesomeIcon icon={faCaretDown}/></button>
           
@@ -101,7 +109,11 @@ export function ListadoJuegos() {
                 </label>
               ))}
           </div> 
-        </div>
+          </div>
+
+
+
+
 
         <button className={`button-fav ${showFavorites ? 'active' : 'inactive'}`} type="button" onClick={handleFavButtonClick}>
           Favorito
@@ -129,12 +141,8 @@ export function ListadoJuegos() {
       )}
        </div>
       {/* Sección de recomendaciones */}
-      <div className='Recomendaciones'>
-        <h3> Tienes alguna recomendación de juego nuevo?</h3>
-        <h4> Dejame tu recomendación aquí</h4>
-        
-
-      </div>
+                
+      <Formulario></Formulario>
 
 
        {/* Boton de subir */}
@@ -142,6 +150,8 @@ export function ListadoJuegos() {
        <button className='backtotop' onClick = {() =>scrollUp()}>
        <FontAwesomeIcon icon={faArrowUp} />
         </button>)}
+
+
        {/* Footer */}
         <Footer_Component/>
         </>
