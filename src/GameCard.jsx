@@ -48,10 +48,10 @@ export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}
                 <TagComponent variant={tags} >{tags}</TagComponent>
                 {/* New section for the console icons */}
                 <div className={styles.consoleIcons}>
-                    {platforms.includes('PS') ? <FontAwesomeIcon icon={faPlaystation} className={styles.consoleIcon} /> : null}
-                    {platforms.includes('XB') ? <FontAwesomeIcon icon={faXbox} className={styles.consoleIcon} /> : null}
-                    {platforms.includes('SW') ? <img src="./Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
-                    {platforms.includes('ST') ? <FontAwesomeIcon icon={faSteam} className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Play Station') ? <FontAwesomeIcon icon={faPlaystation} className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Xbox') ? <FontAwesomeIcon icon={faXbox} className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Switch') ? <img src="./Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Steam') ? <FontAwesomeIcon icon={faSteam} className={styles.consoleIcon} /> : null}
                 </div>
             </div>          
             {isFavourite  ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}

@@ -123,10 +123,11 @@
 
 .DateIdea {
     font-size: clamp(20px, 5vw + 1rem, 100px);
-    margin:2vw;
+    padding-bottom:2vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .containerIdeas{

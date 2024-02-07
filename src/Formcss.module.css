@@ -1,6 +1,8 @@
   .explicacion{
       display: block;
-  }
+      font-weight: bold;
+      font-size: large;
+      }
   .contenedor {
       display:  flex;
       flex-direction: column;
@@ -10,13 +12,10 @@
       height: 50vh;
   }
   .form{
-    width: 75vw;
+    width: 50vw;
     padding: 2vw;
   }
-  .explicacion {
-    font-weight: bold;
-    font-size: large;
-  }
+
   .contenedorBajo{
     display: flex;
     justify-content: space-between;
@@ -32,7 +31,11 @@
   }
 
   .errores{
+    display:block;
     color: tomato;
+    font-size: small;
+    font-weight: 500;
+    margin: 1vh;
   }
 
   .titulo {
@@ -158,6 +161,7 @@
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
   }
   .key:hover {
     color: #fff;

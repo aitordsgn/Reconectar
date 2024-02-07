@@ -6,7 +6,7 @@
     "category": "Party",
     "fav":false,
     "link": "https://store.steampowered.com/app/880940/Pummel_Party/",
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Shift Happens",
@@ -15,7 +15,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/359840/Shift_Happens/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Speed Runners",
@@ -24,7 +24,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/207140/SpeedRunners/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "It takes Two",
@@ -33,7 +33,7 @@
     "category": "Cooperativo",
     "fav": true,
     "link": "https://store.steampowered.com/app/1426210/It_Takes_Two/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Keep Talking and Nobody Explodes",
@@ -42,7 +42,7 @@
     "category": "Cooperativo",
     "fav": true,
     "link": "https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Overcooked! All you can eat",
@@ -51,7 +51,7 @@
     "category": "Cooperativo",
     "fav": true,
     "link": "https://store.steampowered.com/app/1243830/Overcooked_All_You_Can_Eat/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Battleblock Theater",
@@ -60,7 +60,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/238460/BattleBlock_Theater/", 
-    "platforms": ["XB","ST"]
+    "platforms": ["Xbox","Steam"]
   },
   {
     "name": "Lovers in a Dangerous Spacetime",
@@ -69,7 +69,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/252110/Lovers_in_a_Dangerous_Spacetime/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Pico Park",
@@ -78,7 +78,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1509960/PICO_PARK/", 
-    "platforms": ["SW","ST"]
+    "platforms": ["Switch","Steam"]
   },
   {
     "name": "Ship Of Fools",
@@ -87,7 +87,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1286580/Ship_of_Fools/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Unravel Two",
@@ -96,7 +96,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1225570/Unravel_Two/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "A Way Out",
@@ -105,7 +105,7 @@
     "category": "Cooperativo",
     "fav": true,
     "link": "https://store.steampowered.com/app/1222700/A_Way_Out/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Biped",
@@ -114,7 +114,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1071870/Biped/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Move Or Die",
@@ -123,7 +123,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/323850/Move_or_Die/", 
-    "platforms": ["PS", "SW","ST"]
+    "platforms": ["Play Station", "Switch","Steam"]
   },
   {
     "name": "Portal 2",
@@ -132,7 +132,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/620/Portal_2/", 
-    "platforms": ["PS", "XB","ST"]
+    "platforms": ["Play Station", "Xbox","Steam"]
   },
   {
     "name": "Ultiamte Chicken Horse",
@@ -141,7 +141,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/386940/Ultimate_Chicken_Horse/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "The Past Within",
@@ -150,7 +150,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1515210/The_Past_Within/", 
-    "platforms": ["SW","ST"]
+    "platforms": ["Switch","Steam"]
   },
   {
     "name": "Tick Tock a tale for two",
@@ -159,7 +159,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/790740/Tick_Tock_A_Tale_for_Two/", 
-    "platforms": ["SW","ST"]
+    "platforms": ["Switch","Steam"]
   },
   {
     "name": "Terraria",
@@ -168,7 +168,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/105600/Terraria/", 
-    "platforms": ["PS", "SW","ST"]
+    "platforms": ["Play Station", "Switch","Steam"]
   },
   {
     "name": "Human: Fall Flat",
@@ -177,7 +177,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/477160/Human_Fall_Flat/", 
-    "platforms": ["PS", "XB","ST"]
+    "platforms": ["Play Station", "Xbox","Steam"]
   },
   {
     "name": "Moving Out",
@@ -186,7 +186,7 @@
     "category": "Cooperativo",
     "fav": true,
     "link": "https://store.steampowered.com/app/996770/Moving_Out/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Moving Out 2",
@@ -195,7 +195,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1641700/Moving_Out_2/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Stardew Valley",
@@ -204,7 +204,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/413150/Stardew_Valley/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Plate Up!",
@@ -213,7 +213,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1599600/PlateUp/", 
-    "platforms": ["SW","ST"]
+    "platforms": ["Switch","Steam"]
   },
   {
     "name": "Castle Crashers",
@@ -222,7 +222,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/204360/Castle_Crashers/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Pan y Federico",
@@ -231,7 +231,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1607680/Bread__Fred/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "DYO",
@@ -240,7 +240,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/791470/DYO/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Party Animals",
@@ -249,7 +249,7 @@
     "category": "Party",
     "fav":false,
     "link": "https://store.steampowered.com/app/1260320/Party_Animals/", 
-    "platforms": ["XB","ST"]
+    "platforms": ["Xbox","Steam"]
   },
   {
     "name": "Moon Hunters",
@@ -258,7 +258,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/320040/Moon_Hunters/", 
-    "platforms": ["XB", "SW","ST"]
+    "platforms": ["Xbox", "Switch","Steam"]
   },
   {
     "name": "Lethal Company",
@@ -267,7 +267,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1966720/Lethal_Company/", 
-    "platforms": ["PS", "XB", "SW"]
+    "platforms": ["Play Station", "Xbox", "Switch"]
   },
   {
     "name": "Don't Starve Together",
@@ -276,7 +276,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/322330/Dont_Starve_Together/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Pizza Possum",
@@ -285,7 +285,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1951230/Pizza_Possum/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Baldur's Gate 3",
@@ -294,7 +294,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/", 
-    "platforms": ["PS", "XB","ST"]
+    "platforms": ["Play Station", "Xbox","Steam"]
   },
   {
     "name": "Block'Em!",
@@ -303,7 +303,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/1529220/BlockEm/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "River Tails: Stronger Together",
@@ -312,7 +312,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1851610/River_Tails_Stronger_Together/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Street Fighter™ 6",
@@ -321,7 +321,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/1364780/Street_Fighter_6/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Mortal Kombat X",
@@ -330,7 +330,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/976310/Mortal_Kombat11/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Tekken 7",
@@ -339,7 +339,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/389730/TEKKEN_7/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Stick Fight: The Game",
@@ -348,7 +348,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/674940/Stick_Fight_The_Game/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Duck Game",
@@ -357,7 +357,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/312530/Duck_Game/", 
-    "platforms": ["PS", "SW","ST"]
+    "platforms": ["Play Station", "Switch","Steam"]
   },
   {
     "name": "Sackboy™ Una aventura a lo grande",
@@ -366,7 +366,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/1599660/Sackboy_Una_aventura_a_lo_grande", 
-    "platforms": ["PS","ST"]
+    "platforms": ["Play Station","Steam"]
   },
   {
     "name": "ROUNDS",
@@ -375,7 +375,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/1557740/ROUNDS/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Nidhogg",
@@ -384,7 +384,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/94400/Nidhogg/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Party Panic",
@@ -393,7 +393,7 @@
     "category": "Party",
     "fav":false,
     "link": "https://store.steampowered.com/app/506500/Party_Panic/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Lethal League Blaze",
@@ -402,7 +402,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/553310/Lethal_League_Blaze/", 
-    "platforms": ["XB","ST"]
+    "platforms": ["Xbox","Steam"]
   },
   {
     "name": "Shipped",
@@ -411,7 +411,7 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/1037190/Shipped/", 
-    "platforms": ["SW","ST"]
+    "platforms": ["Switch","Steam"]
   },
   {
     "name": "LEGO® Star Wars™: La Saga Skywalker",
@@ -420,7 +420,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/920210/LEGO_Star_Wars_La_Saga_Skywalker/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Untitled Goose Game",
@@ -429,7 +429,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Cuphead",
@@ -438,7 +438,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/268910/Cuphead/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "The escapist 2",
@@ -447,7 +447,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/641990/The_Escapists_2/", 
-    "platforms": ["PS", "XB", "SW","ST"]
+    "platforms": ["Play Station", "Xbox", "Switch","Steam"]
   },
   {
     "name": "Ready, Steady, Ship!",
@@ -456,7 +456,7 @@
     "category": "Cooperativo",
     "fav":false,
     "link": "https://store.steampowered.com/app/2225610/Ready_Steady_Ship/", 
-    "platforms": ["ST"]
+    "platforms": ["Steam"]
   },
   {
     "name": "Tricky Towers",
@@ -465,6 +465,6 @@
     "category": "Vs",
     "fav":false,
     "link": "https://store.steampowered.com/app/437920/Tricky_Towers/", 
-    "platforms": ["PS", "SW","ST"]
+    "platforms": ["Play Station", "Switch","Steam"]
   }
 ]
