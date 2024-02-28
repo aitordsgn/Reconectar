@@ -9,10 +9,10 @@
       justify-content: center;
       align-items: center;
       width: 100vw;
-      height: 50vh;
+      height: fit-content;
   }
   .form{
-    width: 50vw;
+    width: 80vw;
     padding: 2vw;
   }
 
@@ -40,14 +40,16 @@
 
   .titulo {
     font-weight: bold;
-    font-size: x-large;
-    margin: 1vh 0;
+    font-size: calc(20px + 0.4vw);
+    margin: 1vh 10fr;
+    text-align: center;
   }
 
   .descripcion {
     font-weight: normal;
     font-size: large;
     margin: 0.5vh 0;
+    text-align: center;
   }
 
   .envio{
@@ -85,7 +87,7 @@
   /* Select*/
   .select {
     position: relative;
-    min-width: 100px;
+    width: fit-content;
   }
   .select .arrow {
     position: absolute;
@@ -105,8 +107,7 @@
   }
   .select select {
     -webkit-appearance: none;
-    padding: 7px 40px 7px 12px;
-    width: 100px;
+    padding: 7px 30px 7px 7px;
     width: fit-content;
     border: 1px solid #e8eaed;
     border-radius: 5px;
@@ -149,7 +150,7 @@
   }
 
   .desc{
-    width: 50vw;
+    width: 80vw;
     justify-content: center;
     display: flex;
     flex-direction: column;

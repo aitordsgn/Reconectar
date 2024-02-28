@@ -122,12 +122,17 @@
 }
 
 .DateIdea {
-    font-size: clamp(20px, 5vw + 1rem, 100px);
-    padding-bottom:2vw;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    vertical-align: middle;
+  font-size: clamp(2vw,calc(3vw + 1vh),5vw);
+  padding-bottom:2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter Variable', sans-serif;
+  font-weight: 700;
+  max-width: 80vw;
+  height: 30vh;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .containerIdeas{
@@ -135,7 +140,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 100%; /* Adjust height as needed */
 }
 
 

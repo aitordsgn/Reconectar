@@ -58,12 +58,18 @@ const CategoryButton = styled.button`
         color: darkgray;
         text-decoration: line-through;
     }
+    &:selected {
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+    color: #000; /* Cambia el color del texto */
+    border: 2px solid #000; /* Agrega un borde más grueso */
+    }
+
     `;
     
 export function BadgeButton ({category}) {
     return(
         <>
-            <CategoryButton variant = {category} >
+            <CategoryButton variant = {category}>
                 {category}
             </CategoryButton>
         </>

@@ -10,7 +10,6 @@ export default function Eventos () {
           // Código de limpieza si es necesario
         };
       }, []);
-
     return (
         <>
         <Navbar></Navbar>

@@ -1,48 +1,48 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styles from "./Formcss.module.css"
-import { useForm } from 'react-hook-form'
+//import { useForm } from 'react-hook-form'
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import { Toaster ,toast } from "sonner"
 
 export function Formulario() {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-
-    const onSubmit = async (data) => {
-        try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycby4K-QLEDD540pv4nq4Z8wkVBPPMFjLeLw6_7zjjnSv/dev', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(data),
-            });
-            if (response.ok) {
-                console.log('Datos enviados correctamente');
-            } else {
-                console.error('Error al enviar datos');
-            }
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    };
+    //<script src="Google Sheet.js"></script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz118MLc7C6qNn0A2quMNtSw9yJr_jwilYsf-dSSP3_dtcC_QHnrE_w4cikZuXWPOE1/exec'
+    const form = document.forms['game-form']
+    
+    function handleSubmit(event) {
+        event.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        //.then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(<Toaster/>,toast.success('Conseguido'))
+        //.then(() => { window.location.reload(); })
+        //.catch(error => console.error('Error!', error.message))
+        .catch(error => toast.error('Error'))
+      }
 
     return (
         <div className={styles.contenedor}>
             <h3 className={styles.titulo}>Tienes alguna recomendación de juego que no aparece aquí?</h3>
             <h4 className={styles.descripcion}>Dejamela aqui para que pueda añadirlo</h4>
-            <form id="form" onSubmit={handleSubmit(onSubmit)} className="form">
-                <label htmlFor="Nombre Juego" className={styles.explicacion}>Juego</label>
+            <form id="form" method="post" onSubmit={(event) => handleSubmit(event)} name="game-form" className={styles.form}>
+                <label 
+                for ="Juego"
+                className={styles.explicacion}>Juego</label>
                 <input
-                    type="text" placeholder="Nombre del Juego"
+                    type="text" 
+                    placeholder="Nombre del Juego"
+                    id="Juego"
                     name="Juego"
-                    {...register("Juego", { required: true, minLength: 2 })}
-                />
-                {errors.Juego?.type == 'required' && <span className={styles.errores}> El nombre del juego es requerido</span>}
+                    required
+                    minLength={2}/>
+                
+                {/*{errors.Juego?.type == 'required' && <span className={styles.errores}> El nombre del juego es requerido</span>}
                 {errors.Juego?.type == 'minLength' && <span className={styles.errores}> El nombre del juego tiene que tener mas de 2 caracteres</span>}
-
+                */}
                 <div className={styles.contenedorBajo}>
                     <div className={styles.flexing}>
                         <label className={styles.select}>
-                            <select {...register("Tipo", { required: true })} className={styles.selecter} id="slct1" name="Tipo">
+                        <select name="Tipo" className={styles.selecter} required>
+
                                 <option value='Tipo' disabled selected hidden>
                                     Tipo
                                 </option>
@@ -57,7 +57,7 @@ export function Formulario() {
                         </label>
 
                         <label className={styles.select}>
-                            <select {...register("Plataforma", { required: true })} className={styles.selecter} id="slct" name="Plataforma">
+                            <select name="Plataforma" className={styles.selecter} required>
                                 <option value='Plataforma' disabled selected hidden>
                                     Plataforma
                                 </option>
@@ -73,16 +73,20 @@ export function Formulario() {
                             <FontAwesomeIcon icon={faChevronDown} className={styles.arrow} />
                         </label>
                     </div>
-                    <button type="submit" className={styles.envio}>Enviar</button>
+                    <button type="submit" value="Submit" id="submit" className={styles.envio}>Enviar</button>
                 </div>
+                {/*
                 {errors.Tipo && <span className={styles.errores}> Tienes que elegir un tipo de juego</span>}
                 {errors.Plataforma && <span className={styles.errores}> Tienes que elegir una plataforma de juego</span>}
-
+                */}
             </form>
+            
             <div className={styles.desc}>
                 <p className={styles.peticion}>Si eres desarrollador y crees que tu juego podría encajar en esta pagina no dudes en <a className={styles.key} href="mailto:reyortegaitor@gmail.com">mandarnos una key</a> para que lo probemos.</p>
                 <inportant className={styles.inportant}>Puede que tu juego acabe entre en nuestros favoritos</inportant>
             </div>
+            <Toaster/>
         </div>
+        
     );
 }

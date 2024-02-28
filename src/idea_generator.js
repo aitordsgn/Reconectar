@@ -1,78 +1,95 @@
-const dateIdeaElement = document.getElementById("dateIdea");
-const generateButton = document.getElementById("generateButton");
-const categoryButtons = document.querySelectorAll(".category-button");
-let selectedCategory = "Todas"; 
+import React, { useState, useEffect } from 'react';
+import { BadgeButton } from './Badge.jsx';
+import styles from './ideas.module.css';
+import Navbar from './navbar.jsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import Set from 'collections/set'; // Importa la clase Set de JavaScript
 
-// JavaScript (script.js)
+function obtenerIdeaAleatoria(json, categoriasSeleccionadas) {
+  // Filtrar las ideas según las categorías seleccionadas
+  const ideasFiltradas = json.filter(idea =>
+    categoriasSeleccionadas.length === 0 || // Mostrar todas si no hay categorías seleccionadas
+    categoriasSeleccionadas.includes(idea.Categoria)
+  );
 
-// ...
-
-categoryButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-        selectedCategory = button.getAttribute("data-category");
-        updateButtonText();
-    });
-});
-
-// ...
-
-generateButton.addEventListener ("click", () => {
-    fetch("./date-ideas.csv")
-        .then((response) => response.text())
-        .then((data) => {
-            const ideas = parseCsv(data);
-            
-            if (!ideas || ideas.length === 0) {
-                console.error("No se encontraron ideas en el archivo CSV.");
-                return;
-            }
-
-            // Filter ideas based on the selected category
-            const filteredIdeas = selectedCategory === "Todas"
-                ? ideas
-                : ideas.filter(idea => idea.Categoria === selectedCategory || selectedCategory === "Todas");
-
-            if (filteredIdeas.length === 0) {
-                console.error(`No hay ideas para la categoría: ${selectedCategory}`);
-                return;
-            }
-
-            const randomIndex = Math.floor(Math.random() * filteredIdeas.length);
-            const randomIdea = filteredIdeas[randomIndex];
-            
-            // Asegurémonos de que la propiedad correcta se esté utilizando
-            dateIdeaElement.textContent = randomIdea.Valor;
-
-            // Agregamos este console.log para verificar si se está obteniendo la idea correctamente
-            console.log("Idea seleccionada:", randomIdea);
-        })
-        .catch((error) => {
-            console.error("Error fetching date ideas: " + error);
-        });
-});
-
-
-
-
-function parseCsv(csv) {
-    const lines = csv.split(/\r\n|\n/);
-    const headers = lines[0].split(",");
-    const result = [];
-
-    for (let i = 1; i < lines.length; i++) {
-        const currentLine = lines[i].split(",");
-        const entry = {};
-
-        for (let j = 0; j < headers.length; j++) {
-            entry[headers[j]] = currentLine[j];
-        }
-
-        result.push(entry);
-    }
-
-    return result;
+  // Obtener una idea aleatoria de las ideas filtradas
+  return ideasFiltradas[Math.floor(Math.random() * ideasFiltradas.length)];
 }
 
-function updateButtonText() {
-    generateButton.textContent = `Generar una idea de ${selectedCategory === "Todas" ? "culquier categoría" : `${selectedCategory} `}`;
+export function Generador_Ideas() {
+  const [ideasJson, setIdeasJson] = useState([]);
+  const [categoriasSeleccionadas, setCategoriasSeleccionadas] = useState([]);
+  const [categoriasMostradas, setCategoriasMostradas] = useState(new Set()); // Crea un estado para las categorías mostradas
+  const [ideaActual, setIdeaActual] = useState('');
+  const categorias = ["Comida", "En Casa", "Cultura", "Naturaleza","DIY","Fuera de Casa","Activo"];
+
+  useEffect(() => {
+    fetch('./date-ideas.csv')
+      .then((response) => response.text())
+      .then((data) => {
+        const parsedIdeas = parseCsv(data);
+        setIdeasJson(parsedIdeas);
+      })
+      .catch((error) => {
+        console.error("Error fetching date ideas: " + error);
+      });
+  }, []);
+
+  const handleCategoryClick = (category) => {
+    const updatedCategoriasSeleccionadas = categoriasSeleccionadas.includes(category)
+      ? categoriasSeleccionadas.filter((cat) => cat !== category)
+      : [...categoriasSeleccionadas, category];
+    setCategoriasSeleccionadas(updatedCategoriasSeleccionadas);
+  };
+
+  const handleGenerateClick = () => {
+    const ideaAleatoria = obtenerIdeaAleatoria(ideasJson, categoriasSeleccionadas);
+    setIdeaActual(ideaAleatoria.Valor);
+  };
+
+  return (
+    <>
+      <div className={styles.BackgroundContainer}>
+        <div className={styles.categoriesContainer}>
+          {/* Crear botones BadgeButton para cada categoría */}
+          {ideasJson.map((idea, index) => {
+            const categoria = idea.Categoria;
+
+            // Si la categoría no se ha mostrado, mostrar el botón
+            if (!categoriasMostradas.has(categoria)) {
+              categoriasMostradas.add(categoria); // Agrega la categoría al conjunto
+
+              return (
+                <BadgeButton
+                  key={index}
+                  category={categoria}
+                  selected={categoriasSeleccionadas.includes(categoria)}
+                  onClick={() => handleCategoryClick(categoria)}
+                />
+              );
+            }
+
+            return null; // No mostrar el botón si la categoría ya se ha mostrado
+          })}
+        </div>
+        <div className={styles.containerIdeas}>
+          <h1 className={styles.DateIdea}>{ideaActual}</h1>
+          <div class={styles.buttonContainer}>
+            <button
+              className={styles.generateIdeaButton}
+              onClick={handleGenerateClick}
+            >
+              <FontAwesomeIcon icon={faLightbulb} class={styles.CalendarIcon} />
+              <span class={styles.lable}>Generar Idea</span>
+            </button>
+            <button className={styles.Calendario}>
+              <FontAwesomeIcon icon={faCalendar} class={styles.CalendarIcon} />
+              <span class={styles.lable}>Añadir Evento</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
