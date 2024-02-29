@@ -12,12 +12,6 @@
     --speed: 500ms;
     gap:0;
   }
-  @font-face {
-    font-family: 'Inter Variable';
-    src: url('assets/Fonts/Inter-Variable.woff2') format('woff2-variations');
-    font-weight: 100 900;
-    font-display: swap;
-  }
 .card{
     position: relative;
     border-radius: 10px;

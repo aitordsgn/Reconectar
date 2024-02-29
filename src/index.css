@@ -13,18 +13,13 @@
     --speed: 500ms;
     gap:0;
   }
-@font-face {
-    font-family: 'Inter Variable';
-    src: url('assets/Fonts/Inter-Variable.woff2') format('woff2-variations');
-    font-weight: 100 900;
-    font-display: swap;
-}
 /*------------------------------------------*/
 /*------------------------------------------*/
 /*------------------------------------------*/
 *{
     min-width: 0;
     font: inherit;
+    font-family: 'Inter Variable',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 *, *::before ,*::after{
@@ -40,6 +35,14 @@ img, video, svg {
 body {
     margin: 0;
     min-height: 100dvh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #ffffff; 
+    background: radial-gradient(#e5e7eb 1px,transparent 1px);
 }
 h1,h2,h3,h4,h5,h6 {
     text-wrap: balance;
@@ -51,117 +54,36 @@ p {
 body {
     margin: 0;
     padding: 0px;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     color:var(--text-100);
     gap: 0;
 }
-.gameGrid{
+.gameGrid {
     display: grid;
     gap: 1rem;
     grid-template-rows: repeat(22rem);
     grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
     justify-content: center;
     align-items: center;
-    margin: 30px;
     z-index: 0;
+}
+.gameList {
+    width: 100%;
+    padding: 0 5vw;
 }
 
 .gamePage-title{
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     text-align: center;
     font-weight: 900;
 }
 .gamePage-Desc{
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     text-align: center;
     font-weight: bolder;
 }
 
-/*==============================================================*/
-/*========================NAVBAR================================*/
-/*==============================================================*/
-.nav-head {
-    background-color: var(--nav-bg);
-    color: var(--text-100);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5vh;
-    width: 100%;
-}
 
-.nav-ul { 
-    list-style: none;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-}
-
-
-.nav a {
-    text-decoration: none;
-    color: var(--text-100);
-    font-weight: bold;
-    font-size: 16px;
-    height: fit-content;
-}
-nav ul li a.current {
-    text-decoration: underline;
-    font-weight: bold; /* Puedes agregar negrita para hacerlo más prominente */
-}
-nav a:hover {
-    color: var(--primary-100); /* Change the color on hover */
-    /* You can add additional styles like background color or underline */
-}
-.logo-container img{
-    width: fit-content;
-    height: 2rem;
-    margin: 25px;
-}
-.nav-logos{
-    width: 1.5rem;
-    height: 1.5rem;
-    overflow: visible;
-    color:var(--text-100);
-}
-.nav-logos:hover{
-    color:var(--primary-100);
-}
-.nav-donate{
-    margin:10px;
-    background-color: transparent;
-    border: 1px solid var(--primary-100);
-    border-radius: 20px;
-    box-sizing: border-box;
-    color: var(--text-100) ;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 18px;
-    margin: 0;
-    outline: none;
-    padding: 4px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    width: auto;
-    height: min-content;
-}
-.social-buttons{
-    display: flex;
-    gap:1rem;
-    margin:0px 10px;
-    overflow: hidden;
-    vertical-align: text-top;
-    align-items: center;
-    color:var(--text-100)
-}
 /*===============================================================*/
 /*========================BUTTONS================================*/
 /*===============================================================*/
@@ -172,8 +94,7 @@ nav a:hover {
     box-sizing: border-box;
     color: var(--text-100), var(--text-200);
     cursor: pointer;
-    display: inline-block;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    display: flex;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -185,7 +106,9 @@ nav a:hover {
     text-decoration: none;
     user-select: none;
     width: auto;
+    min-width: 130px;
     height: fit-content;
+    justify-content: space-between;
 }
 .button-fav.active {
     background-color: var(--text-100);
@@ -226,7 +149,6 @@ nav a:hover {
     cursor: pointer;
     display: flex;
     gap: 5px;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -239,6 +161,9 @@ nav a:hover {
     user-select: none;
     width: auto;
     height: fit-content;
+    min-width: 130px;
+    height: fit-content;
+    justify-content: space-between;
 }
 .Centrado-botones{
     display: flex;
@@ -258,6 +183,7 @@ nav a:hover {
     z-index: 1000;
     box-shadow: 0px 0px 10px var(--text-100)22231;
     top:10px;
+    width: max-content;
 }
   .contenedor-filtros::before{
     position:absolute;
@@ -286,7 +212,6 @@ nav a:hover {
   .checkbox-label {
     height: max-content;
     padding:10px;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-size: 1rem;
     display: flex;
     vertical-align: center;
@@ -316,3 +241,46 @@ nav a:hover {
   .checkbox:focus {
     border-color: var(--text-200);
   } 
+
+    .BackgroundContainer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -100;
+    background-color: #ffffff; 
+    background-image: radial-gradient(#e5e7eb 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    }
+    .dropdown-button-container {
+        width: 130px;
+        height: 45px;
+    }
+    @media (max-width: 1250px) {
+        .Centrado-botones {
+          display: flex;
+          flex-direction: column;
+          row-gap: 5px;
+          align-items: center;
+          height: fit-content;
+          justify-content: space-between;
+        }
+        .dropdown-button-container{
+            width: 75vw;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        .button-fav{
+            width: 50vw;
+        }
+        .button-dropdown{
+            width: 50vw;
+        }
+      }

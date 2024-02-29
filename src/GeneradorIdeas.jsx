@@ -63,7 +63,7 @@ export function Generador_Ideas() {
 
   return (
     <>
-      <div className={styles.BackgroundContainer}>
+      <div className='BackgroundContainer'/>
       <div className={styles.categoriesContainer}>
           {/* Crear botones BadgeButton para cada categoría */}
           {categorias.map((categoria, index) => (
@@ -95,7 +95,6 @@ export function Generador_Ideas() {
             </button>
           </div>
         </div>
-      </div>
     </>
   );
 }

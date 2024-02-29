@@ -33,20 +33,18 @@ export function Formulario() {
                     id="Juego"
                     name="Juego"
                     required
-                    minLength={2}/>
+                    minLength={2}
+                    />
                 
                 {/*{errors.Juego?.type == 'required' && <span className={styles.errores}> El nombre del juego es requerido</span>}
                 {errors.Juego?.type == 'minLength' && <span className={styles.errores}> El nombre del juego tiene que tener mas de 2 caracteres</span>}
                 */}
-                <div className={styles.contenedorBajo}>
+                <section className={styles.contenedorBajo}>
                     <div className={styles.flexing}>
                         <label className={styles.select}>
                         <select name="Tipo" className={styles.selecter} required>
-
-                                <option value='Tipo' disabled selected hidden>
-                                    Tipo
-                                </option>
-                                <option value="Coop"> Cooperativo
+                                <option value="" disabled selected hidden>Tipo</option>
+                                <option value="Cooperativo"> Cooperativo
                                 </option>
                                 <option value="VS"> VS
                                 </option>
@@ -58,23 +56,21 @@ export function Formulario() {
 
                         <label className={styles.select}>
                             <select name="Plataforma" className={styles.selecter} required>
-                                <option value='Plataforma' disabled selected hidden>
-                                    Plataforma
+                                <option value="" disabled selected hidden>Plataforma</option>
+                                <option value="Play Station"> Play Station
                                 </option>
-                                <option value="PS"> Play Station
+                                <option value="Switch"> Switch
                                 </option>
-                                <option value="SW"> Switch
+                                <option value="Xbox"> Xbox
                                 </option>
-                                <option value="XB"> Xbox
-                                </option>
-                                <option value="ST"> Steam
+                                <option value="Steam"> Steam
                                 </option>
                             </select>
                             <FontAwesomeIcon icon={faChevronDown} className={styles.arrow} />
                         </label>
                     </div>
                     <button type="submit" value="Submit" id="submit" className={styles.envio}>Enviar</button>
-                </div>
+                </section>
                 {/*
                 {errors.Tipo && <span className={styles.errores}> Tienes que elegir un tipo de juego</span>}
                 {errors.Plataforma && <span className={styles.errores}> Tienes que elegir una plataforma de juego</span>}

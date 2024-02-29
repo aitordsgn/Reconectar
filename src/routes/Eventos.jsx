@@ -12,8 +12,11 @@ export default function Eventos () {
       }, []);
     return (
         <>
+        <meta name="author" content="Aitor Rey" />
+        <meta name="keywords" content="Videojuegos para parejas, Videojuegos local, Videojuegos online, Videojuegos coop, Videojuegos multiplayer, Videojuegos 2 jugadores" />
+        <meta name="description" content="Descubre una selección de juegos para disfrutar en pareja, tanto en la misma pantalla como a distancia." />
+        <div className='BackgroundContainer'/>
         <Navbar></Navbar>
-        <Formulario/>
         <h1> Eventos</h1>
         </>
     )

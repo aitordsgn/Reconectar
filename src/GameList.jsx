@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown, faArrowUp, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { GameCard } from './GameCard.jsx';
 import { Footer_Component } from './Footer.jsx';
 import { Formulario } from "./Form";
@@ -106,6 +106,7 @@ export function ListadoJuegos() {
 
   return (
     <>
+      <div className='BackgroundContainer'/>
       <h1 className='gamePage-title'> Videojuegos </h1>
       <h2 className='gamePage-Desc'> Descubre los mejores juegos para jugar en pareja</h2>
       <div className='Centrado-botones'>
@@ -137,11 +138,11 @@ export function ListadoJuegos() {
         </div>
 
         <button className={`button-fav ${showFavorites ? 'active' : 'inactive'}`} type="button" onClick={() => setShowFavorites(!showFavorites)}>
-          Favorito
+          Favorito <FontAwesomeIcon icon={faHeart} />
         </button>
       </div>
 
-      <div className='gameGrid'>
+      <div className='gameList'>
         {filteredItems.length === 0 ? (
           <span className='Notificacion'>No hay ningún juego que coincida con tu búsqueda.</span>
         ) : (

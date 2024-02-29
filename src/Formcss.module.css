@@ -12,8 +12,9 @@
       height: fit-content;
   }
   .form{
-    width: 80vw;
-    padding: 2vw;
+    width: 75vw;
+    padding: 2vh 0;
+    max-width: 1280px;
   }
 
   .contenedorBajo{
@@ -60,7 +61,6 @@
     color: var(--text-100), var(--text-200);
     cursor: pointer;
     display: inline-block;
-    font-family: 'Inter Variable' ,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
@@ -81,6 +81,7 @@
   .flexing {
     display: inline-flex;
     gap: 10px;
+    justify-content: space-around;
   }
 
 
@@ -117,6 +118,7 @@
     font-family: inherit;
     font-size: 16px;
     transition: all 150ms ease;
+    flex-grow: 1;
   }
   .select select:required:invalid {
     color: #5a667f;
@@ -167,4 +169,13 @@
   .key:hover {
     color: #fff;
     box-shadow: inset 200px 0 0 0 #54b3d6;;
+  }
+
+
+  @media (max-width: 1250px) {
+    .contenedorBajo {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
   }
