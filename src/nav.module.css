@@ -1,0 +1,102 @@
+/* Navbar.module.css */
+.navHead {
+    background-color: var(--nav-bg);
+    color: var(--text-100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    padding: 1vh 0;
+  }
+  
+  .navUl {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: var(--text-100);
+    font-weight: bold;
+    font-size: 16px;
+    height: fit-content;
+    transition: all 0.2s ease-in-out; /* Added transition for hover effect */
+  }
+  
+  .navLink:hover {
+    color: var(--primary-100); /* Change the color on hover */
+    transform: scale(1.1); /* Added hover effect */
+  }
+  
+  .current {
+    text-decoration: underline;
+    font-weight: bold; /* You can add bold for emphasis */
+  }
+  .logoContainer{
+    height: 5vh;
+    padding: 5px;
+  }
+  .logoContainer img {
+    height: 2rem;
+  }
+  .logoContainer img:hover {
+    transform: scale(1.1); /* Added hover effect */
+  }
+  .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .navLogos {
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: visible;
+    color: var(--text-100);
+    transition: all 0.2s ease-in-out; /* Added transition for hover effect */
+  }
+  
+  .navLogos:hover {
+    color: var(--primary-100); /* Change the color on hover */
+    transform: scale(1.1); /* Added hover effect */
+  }
+  
+  .navDonate {
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid var(--primary-100);
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: var(--text-100);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+    outline: none;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: auto;
+    height: min-content;
+    margin: 3px;
+  }
+  .navDonate:hover {
+    color: var(--primary-100); /* Change the color on hover */
+    transform: scale(1.1); /* Added hover effect */
+  }
+
+  .socialButtons {
+    display: flex;
+    gap: 1rem;
+    margin: 0px 10px;
+    overflow: hidden;
+    vertical-align: text-top;
+    align-items: center;
+    color: var(--text-100);
+  }
