@@ -1,8 +1,9 @@
+> Este guia de contribución está basada en la [guia de contribución de La Velada 4](https://github.com/midudev/la-velada-web-oficial/blob/main/CONTRIBUTING.md)
 # CONTRIBUTING.md
 
 ## Bienvenido a Reconectar 💡🖤
 
-¡Estoy encantados de que estés interesado en contribuir a nuestro proyecto! Este documento te guiará a través de los pasos necesarios para aportar tu valioso trabajo a Reconectar', un proyecto desarrollado con Vite. Queremos hacer de este proceso algo sencillo y transparente, así que aquí tienes una guía paso a paso.
+¡Estoy encantado de que estés interesado en contribuir a nuestro proyecto! Este documento te guiará a través de los pasos necesarios para aportar tu valioso trabajo a Reconectar', un proyecto desarrollado con Vite. Queremos hacer de este proceso algo sencillo y transparente, así que aquí tienes una guía paso a paso.
 
 ### Primeros pasos 🚀
 
