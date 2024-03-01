@@ -23,20 +23,26 @@ Reconectar es una web enfocada a parejas que buscan poder volver a conectar, vol
 
 </div>
 
-# Tecnologias
-![[HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![VITE](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+## 🛠️ Stack
+
+- [![Html][html-badge]]- Define la estructura y contenido de las páginas web.
+- [![CSS][css-badge]] - Controla la apariencia visual de las páginas web.
+- [![React][react-badge]] - Crea interfaces de usuario dinámicas y reutilizables.
+- [![Vite][vite-badge]] - Permite desarrollar aplicaciones web modernas en tiempo real.
 
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/aitordsgn/citas.svg?style=for-the-badge
-[contributors-url]: https://github.com/aitordsgn/citas/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/aitordsgn/citas.svg?style=for-the-badge
-[forks-url]: https://github.com/aitordsgn/citas/graphs/network/members
-[stars-shield]: https://img.shields.io/github/stars/aitordsgn/citas.svg?style=for-the-badge
-[stars-url]: https://github.com/aitordsgn/citas/graphs/stargazers
-[issues-shield]: https://img.shields.io/github/issues/aitordsgn/citas.svg?style=for-the-badge
-[issues-url]: https://github.com/aitordsgn/citas/graphs/issues
+[hTML-badge]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[css-badge]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[react-badge]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[vite-badge]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+
+[contributors-shield]: https://img.shields.io/github/contributors/midudev/la-velada-web-oficial.svg?style=for-the-badge
+[contributors-url]: https://github.com/midudev/la-velada-web-oficial/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/midudev/la-velada-web-oficial.svg?style=for-the-badge
+[forks-url]: https://github.com/midudev/la-velada-web-oficial/network/members
+[stars-shield]: https://img.shields.io/github/stars/midudev/la-velada-web-oficial.svg?style=for-the-badge
+[stars-url]: https://github.com/midudev/la-velada-web-oficial/stargazers
+[issues-shield]: https://img.shields.io/github/issues/midudev/la-velada-web-oficial.svg?style=for-the-badge
+[issues-url]: https://github.com/midudev/la-velada-web-oficial/issues
