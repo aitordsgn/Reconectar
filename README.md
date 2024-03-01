@@ -1,5 +1,5 @@
 > [!CAUTION]
-> Este repositorio todavía está en desarrollo. Es posible que encuentres bugs, fallos, errores y fallos de diseño. Porfavor, si encuentras alguno [reportalo](https://github.com/aitordsgn/citas/issues) para que pueda replicarlo y así intentar solucionarlo.
+> Este repositorio todavía está en desarrollo. Es posible que encuentres bugs, fallos, errores y fallos de diseño. Por favor, si encuentras alguno [repórtalo](https://github.com/aitordsgn/citas/issues) para que pueda replicarlo y así intentar solucionarlo.
 
 > Este readme está basado en el [readme de 'La Velada IV'](https://github.com/midudev/la-velada-web-oficial/blob/main/README.md)
 
