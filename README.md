@@ -44,6 +44,7 @@ Reconectar es una web enfocada a parejas que buscan poder volver a conectar, vol
 Capturas de pantalla de la web de Reconectar:
 
 ![Captura de pantalla en ordenador](/public/Desktop_README.png)
+![Mockup de pantalla en móvil](/public/Mobile_README.png)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
