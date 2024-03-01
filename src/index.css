@@ -260,7 +260,7 @@ body {
         width: 130px;
         height: 45px;
     }
-    @media (max-width: 1250px) {
+    @media (max-width: 480px) {
         .Centrado-botones {
           display: flex;
           flex-direction: column;

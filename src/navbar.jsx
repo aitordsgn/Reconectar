@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
 // Define CSS modules styles using a separate file (e.g., Navbar.module.css)
 import styles from './nav.module.css';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
-export default function Navbar() {
+class Navbar extends Component {
+  state = {clicked : false};
+  handleclick =() => {
+    this.setState({clicked:
+      !this.state.cliked})
+  }
+  render() {
   return (
     <>
       <nav className={styles.navHead}>
@@ -66,7 +73,12 @@ export default function Navbar() {
             Donate
           </a>
         </div>
+        <div className={styles.mobile} onClick={this.handleclick}>
+          <FontAwesomeIcon icon = {this.state.clicked ? faTimes:faBars} className={styles.icon}/>
+        </div>
       </nav>
     </>
   );
 }
+}
+export default Navbar;
