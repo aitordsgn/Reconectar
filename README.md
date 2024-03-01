@@ -1,6 +1,7 @@
 > [!CAUTION]
 > Este repositorio no está acabado
 
+> Este readme está basado en el [readme de 'La Velada IV'](https://github.com/midudev/la-velada-web-oficial/blob/main/README.md)
 
 <a name="readme-top"></a>
 
@@ -110,15 +111,14 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
 
 ## 🛠️ Stack
 
-- [![Html][html-badge]]- Define la estructura y contenido de las páginas web.
-- [![CSS][css-badge]] - Controla la apariencia visual de las páginas web.
-- [![React][react-badge]] - Crea interfaces de usuario dinámicas y reutilizables.
-- [![Vite][vite-badge]] - Permite desarrollar aplicaciones web modernas en tiempo real.
+- ![Html][html-badge]- Define la estructura y contenido de las páginas web.
+- ![CSS][css-badge] - Controla la apariencia visual de las páginas web.
+- ![React][react-badge] - Crea interfaces de usuario dinámicas y reutilizables.
+- ![Vite][vite-badge] - Permite desarrollar aplicaciones web modernas en tiempo real.
 
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
-> Este readme está basado en el [readme de 'La Velada IV'](https://github.com/midudev/la-velada-web-oficial/blob/main/README.md)
 
 
 
