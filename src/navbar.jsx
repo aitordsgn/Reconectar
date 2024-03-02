@@ -25,7 +25,7 @@ class Navbar extends Component {
         >
           <img src="./Icon.svg" alt="Web Logo" className={styles.logo} />
         </a>
-        <nav className={styles.nav}>
+        <div className={styles.nav}>
           <ul className={styles.navUl}>
             <li className={styles.navLink}>
               <Link to="/" className={styles.navLink}>
@@ -43,7 +43,7 @@ class Navbar extends Component {
               </Link>
             </li>
           </ul>
-        </nav>
+        </div>
         <div className={styles.socialButtons}>
           <a
             href="https://twitter.com/reyortegaitor"
