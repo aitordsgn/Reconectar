@@ -35,7 +35,7 @@ img, video, svg {
 body {
     width: 100%; 
     background-color: #ffffff; 
-    background: radial-gradient(#e5e7eb 1px,transparent 1px);
+    background: radial-gradient(#e5e7eb 5px,transparent 5px);
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ p {
 }
 .gameGrid {
     display: grid;
-    gap: 32px;
+    gap: 15px;
     grid-template-columns: 
     repeat(
         auto-fit,
@@ -250,7 +250,7 @@ p {
     height: 100%; 
     z-index: -100;
     background-color: #ffffff; 
-    background-image: radial-gradient(#e5e7eb 1px, transparent 0);
+    background-image: radial-gradient(#e5e7eb 1px, transparent 2.5px);
     background-size: 40px 40px;
     background-position: -19px -19px;
     }
