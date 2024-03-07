@@ -1,6 +1,5 @@
 import { BadgeButton } from './Badge.jsx';
 import styles from './ideas.module.css';
-import Navbar from './navbar.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
@@ -22,28 +21,28 @@ function obtenerIdeaAleatoria(json, categoriasSeleccionadas) {
   // Obtener una idea aleatoria de las ideas filtradas
   return ideasFiltradas[Math.floor(Math.random() * ideasFiltradas.length)];
 }
-const handleCategoryClick = (Cat) => {
-  // Obtener el estado actual de las categorías
-  const updatedCategoriasSeleccionadas = [...categoriasSeleccionadas];
+ const handleCategoryClick = (Cat) => {
+//   // Obtener el estado actual de las categorías
+//   const updatedCategoriasSeleccionadas = [...categoriasSeleccionadas];
 
-  // Si la categoría ya está seleccionada, eliminarla
-  if (updatedCategoriasSeleccionadas.includes(Cat)) {
-    updatedCategoriasSeleccionadas.splice(updatedCategoriasSeleccionadas.indexOf(Cat), 1);
-  } else {
-    // Si no está seleccionada, agregarla
-    updatedCategoriasSeleccionadas.push(Cat);
-  }
-  useEffect(() => {
-    // Registrar el montaje del componente
-    console.log('Componente Generador_Ideas montado');
+//   // Si la categoría ya está seleccionada, eliminarla
+//   if (updatedCategoriasSeleccionadas.includes(Cat)) {
+//     updatedCategoriasSeleccionadas.splice(updatedCategoriasSeleccionadas.indexOf(Cat), 1);
+//   } else {
+//     // Si no está seleccionada, agregarla
+//     updatedCategoriasSeleccionadas.push(Cat);
+//   }
+//   useEffect(() => {
+//     // Registrar el montaje del componente
+//     console.log('Componente Generador_Ideas montado');
   
-    // Registrar la desmontaje del componente
-    return () => console.log('Componente Generador_Ideas desmontado');
-  }, []);
-  // Actualizar el estado con las categorías actualizadas
-  setCategoriasSeleccionadas(updatedCategoriasSeleccionadas);
-  console.log('Categorías:', categoriasSeleccionadas);
-};
+//     // Registrar la desmontaje del componente
+//     return () => console.log('Componente Generador_Ideas desmontado');
+//   }, []);
+//   // Actualizar el estado con las categorías actualizadas
+//   setCategoriasSeleccionadas(updatedCategoriasSeleccionadas);
+//   console.log('Categorías:', categoriasSeleccionadas);
+ };
 export function Generador_Ideas() {
   const [ideaActual, setIdeaActual] = useState('');
   const [categoriasSeleccionadas, setCategoriasSeleccionadas] = useState([]);
@@ -77,7 +76,7 @@ export function Generador_Ideas() {
         </div>
         <div className={styles.containerIdeas}>
         <h1 className={styles.DateIdea}>{mostrarTexto ? "Presiona el botón para generar una idea nueva" : ideaActual}</h1>
-          <div class={styles.buttonContainer}>
+          <div className={styles.buttonContainer}>
             <button
               className={styles.generateIdeaButton}
               onClick={() => {
@@ -87,11 +86,11 @@ export function Generador_Ideas() {
               }}
             >
               <FontAwesomeIcon icon={faLightbulb} class={styles.CalendarIcon} />
-              <span class={styles.lable}>Generar Idea</span>
+              <span className={styles.lable}>Generar Idea</span>
             </button>
             <button className={styles.Calendario}>
               <FontAwesomeIcon icon={faCalendar} class={styles.CalendarIcon} />
-              <span class={styles.lable}>Añadir Evento</span>
+              <span className={styles.lable}>Añadir Evento</span>
             </button>
           </div>
         </div>

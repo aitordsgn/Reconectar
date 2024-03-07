@@ -38,10 +38,10 @@ export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}
     console.log('Platform array:', platforms);
     return(
        <article className= {styles.card}>
-            <a href ={link} target="_blank" className={styles.cardAImage}>
-                <img loading ="lazy" className={styles.cardImage} src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
+            <a href ={link} target="_blank"  rel='noreferrer' className={styles.cardAImage}>
+                <img loading ="lazy"  rel='noreferrer' className={styles.cardImage} src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
             </a>
-            <a href ={link} target="_blank" className={styles.NoChange}>
+            <a href ={link} target="_blank"  rel='noreferrer' className={styles.NoChange}>
                 <h2 className={styles.cardTitle}>{gameName}</h2>
             </a>
             <div className={styles.inline}>

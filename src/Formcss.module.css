@@ -88,13 +88,15 @@
   /* Select*/
   .select {
     position: relative;
-    width: fit-content;
+    width: 100%;
+    flex: 1;
+
   }
   .select .arrow {
     position: absolute;
-    right: 12px;
+    right: 20px;
     top: calc(25%);
-    width: 20px;
+    width: 10px;
     height: 15px;
     stroke-width: 2px;
     stroke: #9098a9;
@@ -109,7 +111,7 @@
   .select select {
     -webkit-appearance: none;
     padding: 7px 30px 7px 7px;
-    width: fit-content;
+    width: 100%;
     border: 1px solid #e8eaed;
     border-radius: 5px;
     background: #fff;
@@ -171,8 +173,7 @@
     box-shadow: inset 200px 0 0 0 #54b3d6;;
   }
 
-
-  @media (max-width: 1250px) {
+  @media screen and (max-width: 600px) {
     .contenedorBajo {
       display: flex;
       flex-direction: column;

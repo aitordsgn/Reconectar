@@ -33,16 +33,15 @@ img, video, svg {
 }
 
 body {
-    margin: 0;
-    min-height: 100dvh;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; 
     width: 100%; 
-    height: 100%; 
     background-color: #ffffff; 
     background: radial-gradient(#e5e7eb 1px,transparent 1px);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color:var(--text-100);
+    margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     text-wrap: balance;
@@ -50,37 +49,34 @@ h1,h2,h3,h4,h5,h6 {
 p {
     text-wrap: pretty;
 }
-
-body {
-    margin: 0;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color:var(--text-100);
-    gap: 0;
-}
 .gameGrid {
     display: grid;
-    gap: 1rem;
-    grid-template-rows: repeat(22rem);
-    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    gap: 32px;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150px,1fr))
+        ;
+
     justify-content: center;
     align-items: center;
     z-index: 0;
 }
 .gameList {
-    width: 100%;
-    padding: 0 5vw;
+    width: 100vw;
+    padding: 0 10vw;
 }
 
 .gamePage-title{
     text-align: center;
     font-weight: 900;
+    font-size: xx-large;
 }
 .gamePage-Desc{
     text-align: center;
     font-weight: bolder;
+    width: 100vw;
+    padding: 5px;
 }
 
 
@@ -122,20 +118,23 @@ body {
 .backtotop{
     position: fixed;
     bottom: 2vh;
-   width: 2rem;
-   height: 2rem;
+    width: 50px;
+    height: 52px;
     right: 2vw;
     font-size: 1.25rem;
-    background-color: var(--primary-200);
+    background-color: #F3F0F0;
     color:var(--text-100);
-    border-radius: 50%;
+    border-radius: 5px;
     border: 0px;
     color: var(--text-200);
     box-shadow: 0px 0px 10px var(--text-100);
-    transition: 1000ms;
+    transition: 200ms;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 .backtotop:hover{
-    background-color: var(--accent-100);
+    background-color: #afafaf;
 }
 /*===============================================================*/
 /*====================DROPDOWN BUTTON=============================*/
@@ -151,7 +150,6 @@ body {
     gap: 5px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 18px;
     margin: 0;
     outline: none;
     padding: 12px;
@@ -260,11 +258,11 @@ body {
         width: 130px;
         height: 45px;
     }
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
         .Centrado-botones {
           display: flex;
           flex-direction: column;
-          row-gap: 5px;
+          row-gap: 20px;
           align-items: center;
           height: fit-content;
           justify-content: space-between;
@@ -276,11 +274,17 @@ body {
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
+            height: 20px;
         }
         .button-fav{
             width: 50vw;
+            font-size: small;
+            padding: 8px;
+
         }
         .button-dropdown{
             width: 50vw;
+            font-size: small;
+            padding: 8px;
         }
       }

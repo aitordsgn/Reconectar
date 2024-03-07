@@ -25,7 +25,7 @@ export function Formulario() {
             <h4 className={styles.descripcion}>Dejamela aqui para que pueda añadirlo</h4>
             <form id="form" method="post" onSubmit={(event) => handleSubmit(event)} name="game-form" className={styles.form}>
                 <label 
-                for ="Juego"
+                htmlFor ="Juego"
                 className={styles.explicacion}>Juego</label>
                 <input
                     type="text" 
@@ -66,7 +66,7 @@ export function Formulario() {
                                 <option value="Steam"> Steam
                                 </option>
                             </select>
-                            <FontAwesomeIcon icon={faChevronDown} className={styles.arrow} />
+                            <FontAwesomeIcon icon={faChevronDown} className={styles.arrow}/>
                         </label>
                     </div>
                     <button type="submit" value="Submit" id="submit" className={styles.envio}>Enviar</button>

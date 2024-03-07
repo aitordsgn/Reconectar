@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
@@ -23,7 +23,7 @@ class Navbar extends Component {
           rel="nofollow noopener"
           aria-label="Web Logo"
         >
-          <img src="./Icon.svg" alt="Web Logo" className={styles.logo} />
+          <img src="./Icono_opt.svg" alt="Web Logo" className={styles.logo} />
         </a>
         <div className={styles.nav}>
           <ul className={styles.navUl}>
