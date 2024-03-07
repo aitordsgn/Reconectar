@@ -3,6 +3,8 @@
 
 > Este readme está basado en el [readme de 'La Velada IV'](https://github.com/midudev/la-velada-web-oficial/blob/main/README.md)
 
+
+
 <a name="readme-top"></a>
 
 <div align="center">
@@ -12,7 +14,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-<a href="https://github.com/aitordsgn/citas">
+<a href="https://aitordsgn.github.io/Reconectar/">
   <img src="https://github.com/aitordsgn/citas/blob/main/public/Icono_opt.svg" alt="Logo" width="600" />
 </a>
 
