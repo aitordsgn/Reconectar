@@ -119,7 +119,7 @@ Por favor, consulta nuestra [guía de contribución](https://github.com/aitordsg
 - ![React][react-badge] - Crea interfaces de usuario dinámicas y reutilizables.
 - ![Vite][vite-badge] - Permite desarrollar aplicaciones web modernas en tiempo real.
 
-> I use a Google Sheets as a Database to storage all the web form recommendations.
+> Uso Google Sheets como base de datos gratuita y publica para poder almacenar las recomendaciones de juegos de los usuarios.
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
