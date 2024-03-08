@@ -5,9 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 80px;
     width: 100%;
-    padding: 1vh 0;
   }
   
   .navUl {
@@ -17,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    padding: 0;
   }
   
   .navLink {
@@ -26,6 +26,12 @@
     font-size: 16px;
     height: fit-content;
     transition: all 0.2s ease-in-out; /* Added transition for hover effect */
+  }
+  .navdiv {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   .navLink:hover, .navLink:active {
@@ -51,6 +57,7 @@
     width: 1.5rem;
     height: 1.5rem;
   }
+
 
   .navLogos {
     width: 1.5rem;
@@ -102,42 +109,78 @@
     color: var(--text-100);
   }
 
-  .mobile{
+  .navclosebtn {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .navbton{
     display: none;
-  }
-
-  .mobile i {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
     color: var(--text-100);
-    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
   }
-/*
-  @media screen and (max-width:480px)
-  {
-    .navHead{
-      z-index: inherit;
-    }
-      
-    .navUl{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
-      position: fixed;
-      top: 5vh;
-      right: 0px;
-      width: 300px;
-      height: 100vh;
-      background: #fff;
-      box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-      padding: 40px 0 0 10px;
-      
-    }
-    .navUl li {
-      margin-bottom: 25px;
-      color: aliceblue;
-    }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+  }
 
-    .mobile {
-      display: block;
-    }
-  }*/
+  @media only screen and (max-width:600px)
+  {
+   .navbton{
+    display:block;
+    visibility: visible;
+		opacity: 1;
+   }
+   .responsivenav {
+    transform: translateY(200vh);
+   }
+   .navdiv {
+    position: fixed;
+		top: -200vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1vh;
+		background-color: var(--nav-bg);
+		transition: 1s;
+    z-index: 100;
+   }
+   
+
+   div .navclosebtn {
+    position: absolute;
+		top: 2rem;
+		right: 2rem;
+   }
+
+   .navUl {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+   }
+   .socialButtons{
+    position: relative;
+    bottom: -30vh;
+   }
+  }

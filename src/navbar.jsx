@@ -1,84 +1,93 @@
-import { Component } from 'react';
+import { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./nav.css"
 
-// Define CSS modules styles using a separate file (e.g., Navbar.module.css)
-import styles from './nav.module.css';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+function Navbar () {
 
-class Navbar extends Component {
-  state = {clicked : false};
-  handleclick =() => {
-    this.setState({clicked:
-      !this.state.cliked})
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsivenav");
+  
   }
-  render() {
+
   return (
     <>
-      <nav className={styles.navHead}>
+      <header className="navHead">
         <a
           href="/"
-          className={styles.logoContainer}
+          className="logoContainer"
           rel="nofollow noopener"
           aria-label="Web Logo"
         >
-          <img src="./Icono_opt.svg" alt="Web Logo" className={styles.logo} />
+          <img src="./Icono_opt.svg" alt="Web Logo" className="logo" />
         </a>
-        <div className={styles.nav}>
-          <ul className={styles.navUl}>
-            <li className={styles.navLink}>
-              <Link to="/" className={styles.navLink}>
+        <div className="navdiv" ref={navRef}>
+          <div></div>
+        <nav className="nav" ref={navRef}>
+          <ul className="navUl">
+            <li className="navLink">
+              <Link to="/" className="navLink">
                 Ideas
               </Link>
             </li>
-            <li className={styles.navLink}>
-              <Link to="/Videojuegos" className={styles.navLink}>
+            <li className="navLink">
+              <Link to="/Videojuegos" className="navLink">
                 Videojuegos
               </Link>
             </li>
-            <li className={styles.navLink}>
-              <Link to="/Eventos" className={styles.navLink}>
+            <li className="navLink">
+              <Link to="/Eventos" className="navLink">
                 Eventos
               </Link>
             </li>
           </ul>
-        </div>
-        <div className={styles.socialButtons}>
+        </nav>
+        <div className="socialButtons">
           <a
             href="https://twitter.com/reyortegaitor"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
-            className={styles.navLogos}
+            className="navLogos"
           >
-            <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
+            <FontAwesomeIcon icon={faTwitter} className="icon" />
           </a>
           <a
             href="https://github.com/aitordsgn"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github"
-            className={styles.navLogos}
+            className="navLogos"
           >
-            <FontAwesomeIcon icon={faGithub} className={styles.icon} />
+            <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
           <a
             href="https://github.com/aitordsgn"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Donate"
-            className={styles.navDonate}
+            className="navDonate"
           >
             Donate
           </a>
         </div>
-        <div className={styles.mobile} onClick={this.handleclick}>
-          <FontAwesomeIcon icon = {this.state.clicked ? faTimes:faBars} className={styles.icon}/>
+        <button className="navbton navclosebtn" onClick={showNavbar}>
+          <FaTimes/>
+        </button>
         </div>
-      </nav>
+        
+        
+       
+        <button className="navbton" onClick={showNavbar}>
+          <FaBars/>
+        </button>
+      </header>
     </>
   );
 }
-}
+
 export default Navbar;
