@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5,h6 {
 p {
     text-wrap: pretty;
 }
+
+
+
 .gameGrid {
     display: grid;
     gap: 15px;
@@ -64,7 +67,7 @@ p {
     z-index: 0;
 }
 .gameList {
-    width: 100vw;
+    width: 100%;
     padding: 0 10vw;
 }
 
@@ -76,7 +79,7 @@ p {
 .gamePage-Desc{
     text-align: center;
     font-weight: bolder;
-    width: 100vw;
+    width: 100%;
     padding: 5px;
 }
 

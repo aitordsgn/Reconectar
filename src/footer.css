@@ -26,7 +26,8 @@
     margin: .5rem;
 }
 .footer-logos:hover{
-    color:var(--primary-100);
+    color: var(--primary-100); /* Change the color on hover */
+    transform: scale(1.1); /* Added hover effect */
 }
 .footer-social-buttons{
     display: flex;
