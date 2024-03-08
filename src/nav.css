@@ -156,7 +156,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 1vh;
+		gap: 4vh;
 		background-color: var(--nav-bg);
 		transition: 1s;
     z-index: 100;
@@ -176,11 +176,15 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 3vh;
     padding: 0;
    }
    .socialButtons{
     position: relative;
     bottom: -30vh;
+   }
+
+   .navLink{
+    font-size: x-large;
    }
   }
