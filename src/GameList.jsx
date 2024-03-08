@@ -3,7 +3,8 @@ import { GameCard } from './GameCard.jsx';
 import { Footer_Component } from './Footer.jsx';
 import { Formulario } from "./Form";
 import items from './Videogames.json';
-import { FaCaretDown, FaArrowUp, FaHeart} from "react-icons/fa";
+import { FaCaretDown, FaHeart} from "react-icons/fa";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 
 export function ListadoJuegos() {
@@ -166,7 +167,7 @@ export function ListadoJuegos() {
 
       {backToTopButton && (
         <button className='backtotop' onClick={scrollUp}>
-          <FaArrowUp />
+          <FaArrowUpLong className='icon'/>
         </button>
       )}
 

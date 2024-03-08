@@ -99,8 +99,7 @@
     width: 10px;
     height: 15px;
     stroke-width: 2px;
-    stroke: #9098a9;
-    fill: none;
+    fill: var(--text-200);
     stroke-linecap: round;
     stroke-linejoin: round;
     pointer-events: none;
@@ -138,6 +137,7 @@
   }
   .select select:hover + svg {
     color: #07f;
+    fill: #07f;
   }
 
   .inportant {

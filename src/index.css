@@ -87,6 +87,35 @@ p {
 /*===============================================================*/
 /*========================BUTTONS================================*/
 /*===============================================================*/
+.Notificación {
+        text-align: center;
+        color:gray;
+}
+
+.backtotop{
+    position: fixed;
+    display: flex;
+    bottom: 2vh;
+    width: 50px;
+    height: 52px;
+    right: 2vw;
+    font-size: 1.25rem;
+    background-color: #F3F0F0;
+    color:var(--text-200);
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 20px 5px rgba(189,189,189,1);
+    transition: 200ms;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.backtotop:hover{
+    background-color: #afafaf;
+}
+/*===============================================================*/
+/*====================DROPDOWN BUTTON=============================*/
+/*===============================================================*/
 .button-fav {
     background-color: var(--bg-100);
     border: 1px solid var(--bg-300);
@@ -114,35 +143,9 @@ p {
     background-color: var(--text-100);
     color: var(--bg-100);   
 }
-.Notificación {
-        text-align: center;
-        color:gray;
+.button-fav:hover {
+    background-color: var(--text-300);
 }
-
-.backtotop{
-    position: fixed;
-    bottom: 2vh;
-    width: 50px;
-    height: 52px;
-    right: 2vw;
-    font-size: 1.25rem;
-    background-color: #F3F0F0;
-    color:var(--text-100);
-    border-radius: 5px;
-    border: 0px;
-    color: var(--text-200);
-    box-shadow: 0px 0px 10px var(--text-100);
-    transition: 200ms;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.backtotop:hover{
-    background-color: #afafaf;
-}
-/*===============================================================*/
-/*====================DROPDOWN BUTTON=============================*/
-/*===============================================================*/
 .button-dropdown {
     background-color: var(--bg-100);
     border: 1px solid var(--bg-300);
@@ -167,6 +170,17 @@ p {
     height: fit-content;
     justify-content: space-between;
 }
+.button-dropdown:hover{
+    background-color: var(--bg-300);
+}
+
+.buttonIcons {
+    font-size: large;
+    width: 20px;
+    height: 20px;
+}
+
+
 .Centrado-botones{
     display: flex;
     justify-content: center;
