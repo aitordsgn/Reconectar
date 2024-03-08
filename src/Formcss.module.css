@@ -109,6 +109,7 @@
   }
   .select select {
     -webkit-appearance: none;
+    appearance: none;
     padding: 7px 30px 7px 7px;
     width: 100%;
     border: 1px solid #e8eaed;

@@ -17,7 +17,7 @@ function Navbar () {
     <>
       <header className="navHead">
         <a
-          href="/"
+          href="/Reconectar"
           className="logoContainer"
           rel="nofollow noopener"
           aria-label="Web Logo"
