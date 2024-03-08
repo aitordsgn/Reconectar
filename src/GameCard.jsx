@@ -26,11 +26,11 @@ const TagComponent = styled.p`
         ? "#C3F8DF": "#D9D9D9")};
     color: ${(props => 
         props.variant === "Cooperativo" 
-        ? "#7DC2FF" 
+        ? "rgb(78 108 134)" 
         : props.variant === "Vs"
-        ? "#BE5E5E" 
+        ? "rgb(142 70 70)" 
         : props.variant === "Party" 
-        ? "#3B9D6F": "#2222" )};
+        ? "rgb(38 111 77)": "#2222" )};
     `;
 
 export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}){

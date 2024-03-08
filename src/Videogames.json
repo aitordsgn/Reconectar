@@ -466,5 +466,32 @@
     "fav":false,
     "link": "https://store.steampowered.com/app/437920/Tricky_Towers/", 
     "platforms": ["Play Station", "Switch","Steam"]
+  },
+  {
+    "name": "Super Mario Party",
+    "id": "52",
+    "Photo": "SMP.avif",
+    "category": "Cooperativo",
+    "fav":false,
+    "link": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Super-Mario-Party-1388641.html", 
+    "platforms": ["Switch"]
+  },
+  {
+    "name": "Super Mario Bros Wonder",
+    "id": "53",
+    "Photo": "SMBWonder.avif",
+    "category": "Cooperativo",
+    "fav":false,
+    "link": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Super-Mario-Bros-Wonder-2404150.html", 
+    "platforms": ["Switch"]
+  },
+  {
+    "name": "Mario Kart Deluxe 8",
+    "id": "54",
+    "Photo": "MKD8.webp",
+    "category": "Vs",
+    "fav":true,
+    "link": "https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Mario-Kart-8-Deluxe-1173281.html", 
+    "platforms": ["Switch"]
   }
 ]
