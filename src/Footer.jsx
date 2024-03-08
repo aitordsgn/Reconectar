@@ -1,6 +1,5 @@
 import "./footer.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, } from '@fortawesome/free-brands-svg-icons'
+import { FaInstagram , FaGithub } from "react-icons/fa"
 
 
 export function Footer_Component(){
@@ -11,11 +10,11 @@ export function Footer_Component(){
        <svg src="./wave.svg" className="spacer"></svg>
        <div className="coloring">
             <div className="footer-social-buttons">
-                <a  href="https://twitter.com/reyortegaitor" target="_blank" rel="noopener noreferrer"aria-label="Twitter" className="a">
-                    <FontAwesomeIcon icon={faTwitter} className="footer-logos"/>
+                <a  href="https://www.instagram.com/aitordsgn/" target="_blank" rel="noopener noreferrer"aria-label="Personal design Instagram Link" className="a">
+                    <FaInstagram className="footer-logos"/>
                 </a>
-                <a  href="https://github.com/aitordsgn" target="_blank" rel="noopener noreferrer" aria-label="Github" className="a">
-                    <FontAwesomeIcon icon={faGithub} className="footer-logos"/>
+                <a  href="https://github.com/aitordsgn/Reconectar" target="_blank" rel="noopener noreferrer" aria-label="Conexion a github del proyecto" className="a">
+                    <FaGithub className="footer-logos"/>
                 </a>
  
             </div>

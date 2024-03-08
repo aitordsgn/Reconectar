@@ -1,7 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styles from "./Formcss.module.css"
 //import { useForm } from 'react-hook-form'
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
+import { FaChevronDown} from "react-icons/fa";
 import { Toaster ,toast } from "sonner"
 
 export function Formulario() {
@@ -51,7 +50,7 @@ export function Formulario() {
                                 <option value="Party"> Party
                                 </option>
                             </select>
-                            <FontAwesomeIcon icon={faChevronDown} className={styles.arrow} />
+                            <FaChevronDown className={styles.arrow}/>
                         </label>
 
                         <label className={styles.select}>
@@ -66,7 +65,7 @@ export function Formulario() {
                                 <option value="Steam"> Steam
                                 </option>
                             </select>
-                            <FontAwesomeIcon icon={faChevronDown} className={styles.arrow}/>
+                            <FaChevronDown className={styles.arrow}/>
                         </label>
                     </div>
                     <button type="submit" value="Submit" id="submit" className={styles.envio}>Enviar</button>

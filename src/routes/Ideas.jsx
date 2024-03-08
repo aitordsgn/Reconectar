@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import {Generador_Ideas} from "../GeneradorIdeas.jsx"
 import Navbar from "../navbar"
 import styles from '../ideas.module.css';

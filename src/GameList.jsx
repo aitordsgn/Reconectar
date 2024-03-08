@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretDown, faArrowUp, faHeart } from '@fortawesome/free-solid-svg-icons';
 import { GameCard } from './GameCard.jsx';
 import { Footer_Component } from './Footer.jsx';
 import { Formulario } from "./Form";
 import items from './Videogames.json';
+import { FaCaretDown, FaArrowUp, FaHeart} from "react-icons/fa";
+
 
 export function ListadoJuegos() {
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -112,7 +112,7 @@ export function ListadoJuegos() {
       <div className='Centrado-botones'>
         <div className='dropdown-button-container'>
           <button className='button-dropdown' onClick={toggleFiltersDropdown}>
-            Filtrar <FontAwesomeIcon icon={faCaretDown} />
+            Filtrar <FaCaretDown className='buttonIcons'/>
           </button>
           <div className={`contenedor-filtros ${openFilters ? 'active' : 'inactive'}`}>
             {filters.map((category, idx) => (
@@ -130,7 +130,7 @@ export function ListadoJuegos() {
 
         <div className='dropdown-button-container'>
           <button className='button-dropdown' onClick={togglePlatformsDropdown}>
-            Plataformas <FontAwesomeIcon icon={faCaretDown} />
+            Plataformas <FaCaretDown className='buttonIcons'/>
           </button>
           <div className={`contenedor-filtros ${openPlatforms ? 'active' : 'inactive'}`}>
             {generatePlatformOptions()}
@@ -138,7 +138,7 @@ export function ListadoJuegos() {
         </div>
 
         <button className={`button-fav ${showFavorites ? 'active' : 'inactive'}`} type="button" onClick={() => setShowFavorites(!showFavorites)}>
-          Favorito <FontAwesomeIcon icon={faHeart} />
+          Favorito <FaHeart className='buttonIcons' />
         </button>
       </div>
 
@@ -166,7 +166,7 @@ export function ListadoJuegos() {
 
       {backToTopButton && (
         <button className='backtotop' onClick={scrollUp}>
-          <FontAwesomeIcon icon={faArrowUp} />
+          <FaArrowUp />
         </button>
       )}
 

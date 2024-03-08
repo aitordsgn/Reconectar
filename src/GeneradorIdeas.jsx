@@ -1,7 +1,7 @@
 import { BadgeButton } from './Badge.jsx';
 import styles from './ideas.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { FaLightbulb, FaCalendar} from "react-icons/fa";
+
 import { useState } from 'react';
 import ideasJson from './dates.json';
 
@@ -85,11 +85,11 @@ export function Generador_Ideas() {
                 setMostrarTexto(false);
               }}
             >
-              <FontAwesomeIcon icon={faLightbulb} class={styles.CalendarIcon} />
+              <FaLightbulb class={styles.CalendarIcon} />
               <span className={styles.lable}>Generar Idea</span>
             </button>
             <button className={styles.Calendario}>
-              <FontAwesomeIcon icon={faCalendar} class={styles.CalendarIcon} />
+              <FaCalendar class={styles.CalendarIcon} />
               <span className={styles.lable}>Añadir Evento</span>
             </button>
           </div>

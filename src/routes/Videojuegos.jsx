@@ -1,6 +1,6 @@
 import { ListadoJuegos } from "../GameList";
 import Navbar from "../navbar";
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export default function Videojuegos () {
     useEffect(() => {

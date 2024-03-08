@@ -1,6 +1,6 @@
 import Navbar from "../navbar"
-import React, { useEffect } from 'react';
-import { Formulario } from "../Form";
+import { useEffect } from 'react';
+
 
 export default function Eventos () {
 

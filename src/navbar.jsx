@@ -1,8 +1,7 @@
 import { useRef } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaInstagram , FaGithub} from "react-icons/fa";
+
 import "./nav.css"
 
 function Navbar () {
@@ -48,25 +47,25 @@ function Navbar () {
         </nav>
         <div className="socialButtons">
           <a
-            href="https://twitter.com/reyortegaitor"
+            href="https://www.instagram.com/aitordsgn/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Twitter"
+            aria-label="Instagram Link"
             className="navLogos"
           >
-            <FontAwesomeIcon icon={faTwitter} className="icon" />
+            <FaInstagram className="icon" />
           </a>
           <a
-            href="https://github.com/aitordsgn"
+            href="https://github.com/aitordsgn/Reconectar"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Github"
+            aria-label="Conexión a github del proyecto"
             className="navLogos"
           >
-            <FontAwesomeIcon icon={faGithub} className="icon" />
+            <FaGithub className="icon" />
           </a>
           <a
-            href="https://github.com/aitordsgn"
+            href="https://example.com" //TODO Arreglar el link de donaciones
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Donate"
@@ -79,9 +78,6 @@ function Navbar () {
           <FaTimes/>
         </button>
         </div>
-        
-        
-       
         <button className="navbton" onClick={showNavbar}>
           <FaBars/>
         </button>

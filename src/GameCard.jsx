@@ -1,8 +1,7 @@
 import styles from "./GameCard.module.css"
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart} from '@fortawesome/free-solid-svg-icons'
-import { faPlaystation, faXbox, faSteam} from '@fortawesome/free-brands-svg-icons';
+import { FaPlaystation, FaXbox, FaSteam, FaHeart} from "react-icons/fa";
+
 
 const TagComponent = styled.p`
 
@@ -38,23 +37,23 @@ export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}
     console.log('Platform array:', platforms);
     return(
        <article className= {styles.card}>
-            <a href ={link} target="_blank"  rel='noreferrer' className={styles.cardAImage}>
+            <a href ={link} target="_blank" aria-label={`Link a web para ${gameName}`}  rel='noreferrer' className={styles.cardAImage}>
                 <img loading ="lazy"  rel='noreferrer' className={styles.cardImage} src={`./Imgs/${imgName}` } alt="Splash screen" width="100%" height="100%"></img>
             </a>
-            <a href ={link} target="_blank"  rel='noreferrer' className={styles.NoChange}>
+            <a href ={link} aria-label={`Link a web para ${gameName}`} target="_blank"  rel='noreferrer' className={styles.NoChange}>
                 <h2 className={styles.cardTitle}>{gameName}</h2>
             </a>
             <div className={styles.inline}>
                 <TagComponent variant={tags} >{tags}</TagComponent>
                 {/* New section for the console icons */}
                 <div className={styles.consoleIcons}>
-                    {platforms.includes('Play Station') ? <FontAwesomeIcon icon={faPlaystation} className={styles.consoleIcon} /> : null}
-                    {platforms.includes('Xbox') ? <FontAwesomeIcon icon={faXbox} className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Play Station') ? <FaPlaystation className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Xbox') ? <FaXbox className={styles.consoleIcon} /> : null}
                     {platforms.includes('Switch') ? <img src="./Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
-                    {platforms.includes('Steam') ? <FontAwesomeIcon icon={faSteam} className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Steam') ? <FaSteam className={styles.consoleIcon} /> : null}
                 </div>
             </div>          
-            {isFavourite  ? <FontAwesomeIcon icon={faHeart} className={styles.FavBadge}/> : null}
+            {isFavourite  ? <FaHeart className={styles.FavBadge}/> : null}
 
         </article> 
     );
