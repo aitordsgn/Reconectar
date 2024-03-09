@@ -1,4 +1,5 @@
 import { ListadoJuegos } from "../GameList";
+import KonamiCode from "../KonamiCode";
 import Navbar from "../navbar";
 import { useEffect } from 'react';
 
@@ -16,6 +17,7 @@ export default function Videojuegos () {
         <meta name="keywords" content="Videojuegos para parejas, Videojuegos local, Videojuegos online, Videojuegos coop, Videojuegos multiplayer, Videojuegos 2 jugadores" />
         <meta name="description" content="Descubre una selección de juegos para disfrutar en pareja, tanto en la misma pantalla como a distancia." />
         <ListadoJuegos/>
+        <KonamiCode/>
         </>
     )
 }
