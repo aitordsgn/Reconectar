@@ -14,6 +14,9 @@
     border-radius: 16px;
     width: 50dvw;
     height: 50dvh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
   }
   
   .closeButton {
@@ -33,11 +36,16 @@
   .h2  {
     font-size: large;
     font-weight: normal;
+    width: 100%;
+    text-wrap: pretty;
   }
 
   .p {
     font-size: x-large;
     font-weight: bolder;
+    text-wrap: pretty;
+    width: 100%;
+
   }
 
   .flex{
@@ -45,9 +53,22 @@
     flex-direction: column;
     gap: 5px;
     justify-content: center;
+    padding: 0 10px;
+    min-height: fit-content;
+    height: 100%;
   }
 
   .CloseButton {
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  .parent {
+   max-width: 300px;
+   width: 10vw;
+  }
+
+  .avatar {
+    width: 100%;
+    height: auto;
   }

@@ -20,10 +20,15 @@ function KonamiCode() {
         <Konami action={easterEgg} style={{ display: 'block' }}>
           <div className={`KonamiCard`}>
             <button className="closeButton" onClick={handleClick}><FaTimes className='CloseButton' /></button>
-            <img src="./IPeep.svg" alt="Iratxe Peep Avatar" className="Avatar" />
+            <div className="parent">
+              <img src="./IPeep.avif" alt="Iratxe Peep Avatar" className="avatar" />
+            </div>
             <section className='flex'>
               <h2 className="h2">Esta página no hubiera sido posible sin el apoyo incondicional de esa persona especial.</h2>
               <p className="p">Ojalá encuentres a alguien así.</p>
+              <h2 className="h2">Muchisimas gracias por apoyarme en todo lo que hago</h2>
+              <p className="p">Te quiero mucho</p>
+
             </section>
           </div>
         </Konami>

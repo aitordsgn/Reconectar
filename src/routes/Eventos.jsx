@@ -1,5 +1,6 @@
 import Navbar from "../navbar"
 import { useEffect } from 'react';
+import KonamiCode from "../KonamiCode";
 
 
 export default function Eventos () {
@@ -18,6 +19,8 @@ export default function Eventos () {
         <div className='BackgroundContainer'/>
         <Navbar></Navbar>
         <h1> Eventos</h1>
+        <KonamiCode/>
+
         </>
     )
 }
