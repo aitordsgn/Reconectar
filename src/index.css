@@ -17,6 +17,9 @@
 /*------------------------------------------*/
 /*------------------------------------------*/
 /*------------------------------------------*/
+html {
+    scrollbar-gutter: stable;
+  }
 *{
     min-width: 0;
     font: inherit;
@@ -280,7 +283,7 @@ p {
         .Centrado-botones {
           display: flex;
           flex-direction: column;
-          row-gap: 20px;
+          row-gap: 25px;
           align-items: center;
           height: fit-content;
           justify-content: space-between;
