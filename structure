@@ -1,0 +1,21 @@
+/my-app
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/ (for images, icons, etc.)
+│   ├── components/ (for React components)
+│   ├── hooks/ (for custom React hooks)
+│   ├── pages/ (for page components)
+│   ├── services/ (for API calls, utility functions, etc.)
+│   ├── styles/ (for global styles)
+│   ├── App.tsx (or App.js)
+│   └── main.tsx (or main.js)
+├── tests/ (for test files)
+├── .env (for environment variables)
+├── package.json
+├── tsconfig.json (or jsconfig.json if you're not using TypeScript)
+├── vite.config.ts (or vite.config.js)
+└── README.md
+

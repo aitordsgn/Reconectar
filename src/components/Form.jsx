@@ -1,4 +1,4 @@
-import styles from "./Formcss.module.css"
+import styles from "../styles/Formcss.module.css"
 //import { useForm } from 'react-hook-form'
 import { FaChevronDown} from "react-icons/fa";
 import { Toaster ,toast } from "sonner"

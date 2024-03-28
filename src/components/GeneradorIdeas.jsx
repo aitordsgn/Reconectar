@@ -1,9 +1,9 @@
 // GeneradorIdeas.jsx
 import { useState, useEffect } from 'react';
-import ideasJson from './dates.json';
+import ideasJson from '../assets/dates.json';
 import { FaLightbulb, FaCalendar } from "react-icons/fa";
 import { BadgeButton } from './Badge.jsx'; // Importar BadgeButton
-import styles from './ideas.module.css';
+import styles from '../styles/ideas.module.css';
 
 function obtenerIdeaAleatoria(json, categoriasSeleccionadas) {
   // Filtrar las ideas según las categorías seleccionadas

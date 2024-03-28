@@ -1,4 +1,4 @@
-import "./footer.css"
+import "../styles/footer.css"
 import { FaInstagram , FaGithub } from "react-icons/fa"
 
 

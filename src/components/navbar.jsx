@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FaInstagram , FaGithub} from "react-icons/fa";
 
-import "./nav.css"
+import "../styles/nav.css"
 
 function Navbar () {
 
@@ -22,7 +22,7 @@ function Navbar () {
           rel="nofollow noopener"
           aria-label="Web Logo"
         >
-          <img src="./Icono_opt.svg" alt="Web Logo" className="logo" />
+          <img src="src/assets/Icono_opt.svg" alt="Web Logo" className="logo" />
         </a>
         <div className="navdiv" ref={navRef}>
           <div></div>

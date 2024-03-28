@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BadgeButton } from './Badge.jsx';
-import styles from './ideas.module.css';
-import Navbar from './navbar.jsx';
+import { BadgeButton } from './components/Badge.jsx';
+import styles from './styles/ideas.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import Set from 'collections/set'; // Importa la clase Set de JavaScript

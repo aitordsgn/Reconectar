@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import {Generador_Ideas} from "../GeneradorIdeas.jsx"
-import KonamiCode from "../KonamiCode";
+import {Generador_Ideas} from "../components/GeneradorIdeas.jsx"
+import KonamiCode from "../components/KonamiCode.jsx";
 
-import Navbar from "../navbar"
-import styles from '../ideas.module.css';
+import Navbar from "../components/navbar.jsx"
+import styles from '../styles/ideas.module.css';
 
 export default function Ideas () {
     useEffect(() => {

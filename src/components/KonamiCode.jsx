@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Konami from 'react-konami-code';
-import './Konami.css';
+import '../styles/Konami.css';
 import { FaTimes } from 'react-icons/fa';
 
 function KonamiCode() {
@@ -21,7 +21,7 @@ function KonamiCode() {
           <div className={`KonamiCard`}>
             <button className="closeButton" onClick={handleClick}><FaTimes className='CloseButton' /></button>
             <div className="parent">
-              <img src="./IPeep.avif" alt="Iratxe Peep Avatar" className="avatar" />
+              <img src="src/assets/IPeep.avif" alt="Iratxe Peep Avatar" className="avatar" />
             </div>
             <section className='flex'>
               <h2 className="h2">Esta página no hubiera sido posible sin el apoyo incondicional de esa persona especial.</h2>

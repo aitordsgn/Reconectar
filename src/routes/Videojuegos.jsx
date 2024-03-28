@@ -1,6 +1,6 @@
-import { ListadoJuegos } from "../GameList";
-import KonamiCode from "../KonamiCode";
-import Navbar from "../navbar";
+import { ListadoJuegos } from "../components/GameList.jsx";
+import KonamiCode from "../components/KonamiCode.jsx";
+import Navbar from "../components/navbar";
 import { useEffect } from 'react';
 
 export default function Videojuegos () {

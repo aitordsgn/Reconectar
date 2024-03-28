@@ -1,6 +1,7 @@
-import Navbar from "../navbar"
+import Navbar from "../components/navbar.jsx"
 import { useEffect } from 'react';
-import KonamiCode from "../KonamiCode";
+import KonamiCode from "../components/KonamiCode.jsx";
+import { Calendar } from "../components/Calendar.jsx";
 
 
 export default function Eventos () {
@@ -19,6 +20,7 @@ export default function Eventos () {
         <div className='BackgroundContainer'/>
         <Navbar></Navbar>
         <h1> Eventos</h1>
+        <Calendar></Calendar>
         <KonamiCode/>
 
         </>
