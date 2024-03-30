@@ -1,0 +1,14 @@
+.flexboxgrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: hotpink;
+  margin: 1px;
+}
+
+
+/* Event Lists */

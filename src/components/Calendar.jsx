@@ -1,42 +1,23 @@
-import React, { useState } from 'react';
-import '../styles/Calendar.css';
+import Calendar from 'react-calendar';
+import styled from 'styled-components';
+import '../styles/calendar.css';
 
-export function Calendar(){
-  const [currentMonth, setCurrentMonth] = useState(new Date());
-
-  const daysOfWeek = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
-  const daysInMonth = new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1, 0).getDate();
-
-  const days = [];
-  for (let i = 1; i <= daysInMonth; i++) {
-    days.push(i);
-  }
-
-  const handlePrevMonth = () => {
-    setCurrentMonth(new Date(currentMonth.getFullYear(), currentMonth.getMonth() - 1));
-  };
-
-  const handleNextMonth = () => {
-    setCurrentMonth(new Date(currentMonth.getFullYear(), currentMonth.getMonth() + 1));
-  };
-
+export function CalendarEdit() {
   return (
-    <div>
-      <button onClick={handlePrevMonth}>Prev</button>
-      <button onClick={handleNextMonth}>Next</button>
-      <div className="month">{currentMonth.toLocaleString('default', { month: 'long' })} {currentMonth.getFullYear()}</div>
-      <div className="calendar">
-        <div className="days-of-week">
-          {daysOfWeek.map((day) => (
-            <div key={day} className="day-of-week">{day}</div>
-          ))}
-        </div>
-        <div className="days">
-          {days.map((day) => (
-            <div key={day} className="day">{day}</div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <CalendarContainer>
+      <Calendar calendarType='iso8601' 
+      minDetail='year' />
+    </CalendarContainer>
   );
 }
+
+const CalendarContainer = styled.div`
+  /* ~~~ container styles ~~~ */
+  max-width: 50vw;
+  max-height: 50vh;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #d4f7d4;
+  padding: 10px;
+  border-radius: 3px;
+`;

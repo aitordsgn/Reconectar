@@ -1,10 +1,12 @@
 import Navbar from "../components/navbar.jsx"
 import { useEffect } from 'react';
 import KonamiCode from "../components/KonamiCode.jsx";
-import { Calendar } from "../components/Calendar.jsx";
-
+import { CalendarEdit } from "../components/Calendar.jsx";
+import ListadoEventos from "../components/ListadoEventos.jsx";
+import styles from '../styles/Event.module.css';
 
 export default function Eventos () {
+  const eventDates = [5, 10, 15]; // Dates of events
 
     useEffect(() => {
         document.title = 'Eventos'; // Establece el título deseado
@@ -19,10 +21,13 @@ export default function Eventos () {
         <meta name="description" content="Descubre una selección de juegos para disfrutar en pareja, tanto en la misma pantalla como a distancia." />
         <div className='BackgroundContainer'/>
         <Navbar></Navbar>
-        <h1> Eventos</h1>
-        <Calendar></Calendar>
+        {/* Create a flexbox grid to achieve two elements in a row. 
+        In the first element, it will be the Calendaredit, the second element will be the event list */}
+        <div className={styles.flexboxgrid}>
+          <CalendarEdit className={styles.Calendar}></CalendarEdit>
+          <ListadoEventos className={styles.List}></ListadoEventos>
+        </div>
         <KonamiCode/>
-
         </>
     )
 }
