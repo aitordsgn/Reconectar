@@ -93,11 +93,21 @@ export function Generador_Ideas() {
             <FaLightbulb className={styles.CalendarIcon} />
             <span className={styles.lable}>Generar Idea</span>
           </button>
-          <button className={styles.Calendario}>
+          <button
+            className={styles.Calendario}
+            onClick={() => {
+              const today = new Date().toLocaleDateString();
+              const ideaData = {
+                idea: ideaActual,
+                date: today
+              };
+              localStorage.setItem('idea', JSON.stringify(ideaData));
+            }}
+          >
             <FaCalendar className={styles.CalendarIcon} />
             <span className={styles.lable}>Añadir Evento</span>
           </button>
-        </div>
+          </div>
       </div>
     </>
   );
