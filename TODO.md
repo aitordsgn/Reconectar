@@ -17,11 +17,12 @@
 
 # Date List
 1. Arreglar todas las ideas para que sean entendibles.
-    - [ ] Activa
+    - [x] Activa
     - [ ] En casa
-    - [ ] Cocina
+    - [x] Cocina
     - [ ] Fuera de Casa
     - [ ] Especial
     - [ ] Naturaleza
     - [ ] Planificada
     - [ ] Económica
+    - [x] DIY
