@@ -23,9 +23,9 @@ export default function Eventos () {
         <Navbar></Navbar>
         {/* Create a flexbox grid to achieve two elements in a row. 
         In the first element, it will be the Calendaredit, the second element will be the event list */}
-        <div className={styles.flexboxgrid}>
-          <CalendarEdit className={styles.Calendar}></CalendarEdit>
-          <ListadoEventos className={styles.List}></ListadoEventos>
+        <div className={styles.parent}>
+          <CalendarEdit className={styles.child}></CalendarEdit>
+          <ListadoEventos className={styles.child}></ListadoEventos>
         </div>
         <KonamiCode/>
         </>
