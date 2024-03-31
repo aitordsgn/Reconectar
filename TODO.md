@@ -13,3 +13,15 @@
 ## Lista de citas
 1. Crear componente cita visual
 2. Crear componente cita que pueda leer local storage
+
+
+# Date List
+1. Arreglar todas las ideas para que sean entendibles.
+    - [ ] Activa
+    - [ ] En casa
+    - [ ] Cocina
+    - [ ] Fuera de Casa
+    - [ ] Especial
+    - [ ] Naturaleza
+    - [ ] Planificada
+    - [ ] Económica
