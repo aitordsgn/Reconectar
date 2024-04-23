@@ -26,3 +26,7 @@
     - [ ] Planificada
     - [ ] Económica
     - [x] DIY
+
+# Pages
+- [ ] Hero Page
+- [ ] 404 Page
