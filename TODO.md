@@ -30,3 +30,13 @@
 # Pages
 - [ ] Hero Page
 - [ ] 404 Page
+
+
+# SEO
+- [ ] Field label,Field value,Issue name,Severity
+- [ ]Canonical,Canonical URL missing,Canonical URL missing,high
+- [ ] schemaMarkup,No schema markup found,Consider adding schema markup to the page.,low
+- [ ] OG title,Not found,OG title tag is missing,medium
+- [ ] OG description,Not found,OG description tag is missing,medium
+- [ ] OG image,Not found,OG image tag is missing,medium
+- [ ] Twitter card,Not found,Twitter card tag is missing. Consider adding Twitter meta tags.,medium
