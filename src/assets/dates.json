@@ -524,10 +524,6 @@
     "Categoria": "Fuera de Casa"
   },
   {
-    "Valor": "Karaoke",
-    "Categoria": "Fuera de Casa"
-  },
-  {
     "Valor": "Cena con vistas",
     "Categoria": "Especial"
   },
@@ -622,10 +618,6 @@
   {
     "Valor": "Escalar Rocas",
     "Categoria": "Activo"
-  },
-  {
-    "Valor": "Noche de trivia",
-    "Categoria": "En Casa"
   },
   {
     "Valor": "Scrapbook",
@@ -1060,10 +1052,6 @@
     "Categoria": "En Casa"
   },
   {
-    "Valor": "Patinaje sobre Hielo",
-    "Categoria": "Activo"
-  },
-  {
     "Valor": "Ruta de patinaje",
     "Categoria": "Activo"
   },
@@ -1356,10 +1344,6 @@
     "Categoria": "Fuera de Casa"
   },
   {
-    "Valor": "Ir al zoo",
-    "Categoria": "Fuera de Casa"
-  },
-  {
     "Valor": "Aprender nueva habilidad juntos",
     "Categoria": "En Casa"
   },
@@ -1470,10 +1454,6 @@
   {
     "Valor": "Ir a un menu degustación",
     "Categoria": "Especial"
-  },
-  {
-    "Valor": "Noche de Trivial",
-    "Categoria": "En Casa"
   },
   {
     "Valor": "Volar cometas",
@@ -1741,10 +1721,6 @@
   },
   {
     "Valor": "Dibujar al otro a ciegas",
-    "Categoria": "DIY"
-  },
-  {
-    "Valor": "Tallar calabazas",
     "Categoria": "DIY"
   },
   {
