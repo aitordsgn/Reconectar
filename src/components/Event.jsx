@@ -1,5 +1,4 @@
-import React from 'react';
-import styles from '../styles/event.module.css'
+import styles from '../styles/Event.module.css'
 
 const Event = () => {
     return (
