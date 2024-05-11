@@ -15,7 +15,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="https://aitordsgn.github.io/Reconectar/">
-  <img src="https://github.com/aitordsgn/citas/blob/main/public/Icono_opt.svg" alt="Logo" width="600" />
+  <img src="https://github.com/aitordsgn/Reconectar/blob/main/src/assets/Icono_opt.svg" alt="Logo" width="600" />
 </a>
 
 ## Reconectar
