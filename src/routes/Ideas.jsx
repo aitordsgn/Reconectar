@@ -18,25 +18,25 @@ export default function Ideas () {
     return (
         <>
         <Helmet>
-          <title>Eventos</title>
+          <title>Ideas - Reconectar</title>
           <meta name="author" content="Aitor Rey" />
           <meta name="keywords" content="Ideas para citas, Citas románticas, Citas originales, Citas divertidas, Citas económicas, Citas sorpresa" />
-          <meta name="description" content="Encuentra la cita perfecta para tu pareja con nuestro generador de ideas, con opciones para todos los gustos y presupuestos." />
+          <meta name="description" content="Encuentra la cita perfecta para tu pareja con nuestro generador de ideas, con opciones para todos los gustos y presupuestos" />
 
           {/* Canonical URL */}
           <link rel="canonical" href="https://www.example.com/eventos" />
 
           {/* Open Graph (OG) Tags */}
-          <meta property="og:title" content="Eventos" />
-          <meta property="og:description" content="Descubre una selección de juegos para disfrutar en pareja, tanto en la misma pantalla como a distancia." />
+          <meta property="og:title" content="Ideas - Reconectar" />
+          <meta property="og:description" content="Encuentra la cita perfecta para tu pareja con nuestro generador de ideas, con opciones para todos los gustos y presupuestos." />
           <meta property="og:image" content="https://www.example.com/og-image.jpg" />
-          <meta property="og:url" content="https://www.example.com/eventos" />
+          <meta property="og:url" content="https://aitordsgn.github.io/Reconectar/" />
           <meta property="og:type" content="website" />
 
           {/* Twitter Card Tags */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Eventos" />
-          <meta name="twitter:description" content="Descubre una selección de juegos para disfrutar en pareja, tanto en la misma pantalla como a distancia." />
+          <meta name="twitter:title" content="Ideas - Reconectar" />
+          <meta name="twitter:description" content="Encuentra la cita perfecta para tu pareja con nuestro generador de ideas, con opciones para todos los gustos y presupuestos." />
           <meta name="twitter:image" content="https://www.example.com/og-image.jpg" />
       </Helmet>
        
