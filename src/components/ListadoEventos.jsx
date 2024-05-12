@@ -1,22 +1,19 @@
-import React from 'react';
-import Event from './Event';
+import styles from '../styles/Event.module.css';
+import Event from './Event'; // Importa el componente Event
 
-const ListadoEventos = () => {
-    // Step 1: Retrieve event data from local storage
-    const eventData = localStorage.getItem('events');
-    // Step 2: Parse event data into an array
-    const events = JSON.parse(eventData) || [];
-    return (
-        <div>
-            <h2>Listado de Eventos</h2>
-            <ul>
-                {/* Step 3: Map over the array to create a list of event components */}
-                {events.map((event, index) => (
-                    <Event key={index} event={event} />
-                ))}
-            </ul>
-        </div>
-    );
+const ListadoEventos = ({ eventos }) => {
+  return (
+    <div>
+      <h2>Próximos Eventos</h2>
+      <div className={styles.notificationContainer}> {/* Agrega un contenedor para los eventos */}
+          {eventos.map((evento) => (
+            <Event key={evento.id} {...evento}/>
+          )
+        )
+        }
+      </div>
+    </div>
+  );
 };
 
 export default ListadoEventos;

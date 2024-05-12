@@ -1,11 +1,14 @@
 import styles from '../styles/Event.module.css'
 
-const Event = () => {
+const Event = (evento) => {
     return (
-        <div className={styles.card}>
-            <div className={styles.row}>
-                
-            </div>
+        <div className={styles.notification}>
+            <div className={styles.notiglow}></div>
+            <div className={styles.notiborderglow}></div>
+            <strong className={styles.notititle}>{evento.titulo}</strong>
+            <p className={styles.notibody}>{evento.fecha}</p>
+            <p className={styles.notibody}>{evento.tipo}</p>
+
         </div>
     );
 };
