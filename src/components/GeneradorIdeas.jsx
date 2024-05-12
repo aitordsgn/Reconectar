@@ -1,6 +1,6 @@
 // GeneradorIdeas.jsx
 import { useState, useEffect } from 'react';
-import ideasJson from '../assets/dates.json';
+import ideasJson from '../../public/assets/dates.json';
 import { FaLightbulb, FaCalendar } from "react-icons/fa";
 import { BadgeButton } from './Badge.jsx'; // Importar BadgeButton
 import styles from '../styles/ideas.module.css';

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { GameCard } from "./GameCard";
 import { Footer_Component } from './Footer.jsx';
 import { Formulario } from "./Form.jsx";
-import items from '../assets/Videogames.json';
+import items from '../../public/assets/Videogames.json';
 import { FaCaretDown, FaHeart} from "react-icons/fa";
 import { FaArrowUpLong } from "react-icons/fa6";
 
