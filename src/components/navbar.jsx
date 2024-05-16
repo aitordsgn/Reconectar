@@ -22,7 +22,7 @@ function Navbar () {
           rel="nofollow noopener"
           aria-label="Web Logo"
         >
-          <img src="public/assets/Icono_opt.svg" alt="Web Logo" className="logo" />
+          <img src="src/assets/Icono_opt.svg" alt="Web Logo" className="logo" />
         </a>
         <div className="navdiv" ref={navRef}>
           <div></div>

@@ -38,7 +38,7 @@ export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}
     return(
        <article className= {styles.card}>
             <a href ={link} target="_blank" aria-label={`Link a web para ${gameName}`}  rel='noreferrer' className={styles.cardAImage}>
-                <img loading ="lazy"  rel='noreferrer' className={styles.cardImage} src={`public/assets/Imgs/${imgName}`  } alt="Splash screen" width="100%" height="100%" decoding="async"></img>
+                <img loading ="lazy"  rel='noreferrer' className={styles.cardImage} src={`src/assets/Imgs/${imgName}`  } alt="Splash screen" width="100%" height="100%" decoding="async"></img>
             </a>
             <a href ={link} aria-label={`Link a web para ${gameName}`} target="_blank"  rel='noreferrer' className={styles.NoChange}>
                 <h2 className={styles.cardTitle}>{gameName}</h2>
@@ -49,7 +49,7 @@ export function GameCard({imgName, gameName, tags, isFavourite, link, platforms}
                 <div className={styles.consoleIcons}>
                     {platforms.includes('Play Station') ? <FaPlaystation className={styles.consoleIcon} /> : null}
                     {platforms.includes('Xbox') ? <FaXbox className={styles.consoleIcon} /> : null}
-                    {platforms.includes('Switch') ? <img src="public/assets/Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
+                    {platforms.includes('Switch') ? <img src="src/assets/Switch.svg" alt="Nintendo Switch" className={styles.consoleIcon} /> : null}
                     {platforms.includes('Steam') ? <FaSteam className={styles.consoleIcon} /> : null}
                 </div>
             </div>          
